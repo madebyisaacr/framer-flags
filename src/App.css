@@ -1,10 +1,215 @@
-/* Your Plugin CSS */
+/* Hide scrollbars but keep scrolling enabled */
+* {
+	scrollbar-width: none; /* Firefox */
+	-ms-overflow-style: none; /* IE/Edge */
+}
+
+*::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+	display: none; /* Chrome/Safari */
+}
 
 main {
 	display: flex;
 	flex-direction: column;
 	align-items: start;
-	padding: 0 15px 15px 15px;
+	padding-left: 15px;
+	padding-right: 15px;
 	height: 100%;
-	gap: 15px;
+	gap: 10px;
+}
+
+.toolbar {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	gap: 10px;
+	width: 100%;
+}
+
+.search-header {
+	z-index: 10;
+	position: relative;
+	width: 100%;
+}
+
+.search-input {
+	width: 100%;
+	padding-left: 30px !important;
+	padding-right: 2rem;
+}
+
+.search-icon-wrap {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	left: 11px;
+	top: 0;
+	bottom: 0;
+	color: var(--framer-color-text-tertiary);
+}
+
+.insert-type-dropdown {
+	user-select: none;
+}
+
+.payment-card-logos {
+	overflow: auto;
+}
+
+.vectors-grid {
+	width: 100%;
+	display: grid;
+	gap: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding-bottom: 15px;
+	overflow: auto;
+}
+
+.empty-state {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+	flex: 1;
+	min-height: 0;
+	color: var(--framer-color-text-secondary);
+	padding: 20px;
+	pointer-events: none;
+}
+
+.vectors-grid.canvas {
+	grid-template-columns: repeat(auto-fill, minmax(max(100px, calc(100% / 5)), 1fr));
+}
+
+.vectors-grid.image {
+	grid-template-columns: repeat(auto-fill, minmax(max(100px, calc(100% / 6)), 1fr));
+}
+
+.vector-tile {
+	border-radius: 10px;
+	display: flex;
+	transition:
+		background 0.1s ease,
+		color 0.1s ease;
+	aspect-ratio: 1;
+	cursor: pointer;
+	user-select: none;
+	position: relative;
+	padding-top: 8px;
+	--bg-opacity: 0.1;
+}
+
+.vector-tile-content {
+	width: 100%;
+	height: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+	opacity: 1;
+	transition: opacity 0.1s ease;
+}
+
+.vector-tile-content.is-inserting {
+	opacity: 0.5;
+}
+
+.vector-tile:hover {
+	--bg-opacity: 0.15;
+}
+
+[data-framer-theme="dark"] .vector-tile,
+.vector-tile.no-bg-color {
+	background: var(--framer-color-bg-secondary);
+	color: var(--framer-color-text-secondary) !important;
+}
+
+[data-framer-theme="dark"] .vector-tile:hover,
+.vector-tile.no-bg-color:hover {
+	background: var(--framer-color-bg-tertiary);
+	color: var(--framer-color-text-primary) !important;
+}
+
+.vector-tile-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: inherit;
+	opacity: var(--bg-opacity);
+	transition: opacity 0.1s ease;
+}
+
+[data-framer-theme="dark"] .vector-tile-bg {
+	display: none;
+}
+
+.vector-svg-container {
+	width: 100%;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.vector-svg {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.vector-svg svg {
+	max-width: 100%;
+	max-height: 40px;
+}
+
+.vector-name-container {
+	width: 100%;
+	height: 36px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.vector-name {
+	text-align: center;
+	overflow: hidden;
+	width: 100%;
+	user-select: none;
+
+	/* Allow wrapping, but cap to two lines for a tidy grid */
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	line-clamp: 2;
+}
+
+.vector-tile > .spinner-container {
+	opacity: 0;
+	transition: opacity 0.1s ease;
+	position: absolute;
+	inset: 0;
+	z-index: 5;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: inherit;
+	pointer-events: none;
+}
+
+.vector-tile > .spinner-container.is-visible {
+	opacity: 1;
 }
