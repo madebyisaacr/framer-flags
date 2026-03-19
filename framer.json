@@ -1,8 +1,6 @@
 {
-  "id": "5a2fe9",
-  "name": "Framer Flags",
-  "modes": [
-    "canvas"
-  ],
-  "icon": "/icon.svg"
+	"id": "flags1",
+	"name": "Flags",
+	"modes": ["canvas"],
+	"icon": "/icon.svg"
 }
