@@ -31,6 +31,12 @@ const ICON_SETS = {
 	circleFlags: "Circle Flags",
 };
 
+const ICON_SET_STORAGE_KEY = "framer-flags.iconSet";
+
+function isIconSetKey(value: string): value is keyof typeof ICON_SETS {
+	return Object.prototype.hasOwnProperty.call(ICON_SETS, value);
+}
+
 type WikipediaCombinedFlag = {
 	type: "country" | "unitedStatesState";
 	code: string;
@@ -79,7 +85,29 @@ function PaymentCardLogosApp() {
 	);
 
 	const [query, setQuery] = useState("");
-	const [iconSet, setIconSet] = useState<keyof typeof ICON_SETS>("twemoji");
+	const [iconSet, setIconSet] = useState<keyof typeof ICON_SETS>(() => {
+		if (typeof window === "undefined") return "twemoji";
+
+		try {
+			const stored = window.localStorage.getItem(ICON_SET_STORAGE_KEY);
+			if (stored && isIconSetKey(stored)) return stored;
+		} catch {
+			// Ignore localStorage failures (e.g. blocked by browser settings).
+		}
+
+		return "twemoji";
+	});
+
+	const changeIconSet = (next: keyof typeof ICON_SETS) => {
+		setIconSet(next);
+
+		if (typeof window === "undefined") return;
+		try {
+			window.localStorage.setItem(ICON_SET_STORAGE_KEY, next);
+		} catch {
+			// Ignore localStorage failures (e.g. blocked by browser settings).
+		}
+	};
 
 	const sortedCodes = useMemo(() => [...countryCodes].sort((a, b) => a.localeCompare(b)), []);
 	const sortedWikipediaCountryFlags = useMemo(() => {
@@ -216,7 +244,7 @@ function PaymentCardLogosApp() {
 			<div className="toolbar">
 				<select
 					value={iconSet}
-					onChange={(e) => setIconSet(e.target.value as keyof typeof ICON_SETS)}
+					onChange={(e) => changeIconSet(e.target.value as keyof typeof ICON_SETS)}
 					className="icon-set-dropdown"
 				>
 					{Object.entries(ICON_SETS).map(([key, value]) => (
