@@ -79,9 +79,7 @@ main {
 .grid {
 	width: 100%;
 	display: grid;
-	gap: 10px;
-	border-top-left-radius: 4px;
-	border-top-right-radius: 4px;
+	gap: 8px;
 	padding-bottom: 15px;
 	overflow: auto;
 }
@@ -111,8 +109,6 @@ main {
 	width: 100%;
 	position: relative;
 	cursor: pointer;
-	border-radius: 4px;
-	background-color: var(--framer-color-bg-secondary);
 }
 
 .twemoji-flag img {
@@ -126,9 +122,7 @@ main {
 	width: 100%;
 	height: 100%;
 	object-fit: contain;
-	border-radius: 4px;
 	position: relative;
-	background-color: var(--framer-color-bg-secondary);
 	cursor: pointer;
 }
 
@@ -136,7 +130,6 @@ main {
 	width: 100%;
 	height: 100%;
 	aspect-ratio: 3 / 2;
-	border-radius: inherit;
 	object-fit: contain;
 }
 
@@ -144,7 +137,6 @@ main {
 	width: 100%;
 	position: relative;
 	cursor: pointer;
-	border-radius: 1000px;
 	user-select: none;
 }
 
@@ -153,23 +145,8 @@ main {
 	height: 100%;
 	aspect-ratio: 1 / 1;
 	object-fit: contain;
-	border-radius: inherit;
 	pointer-events: none;
 	user-select: none;
-}
-
-.twemoji-flag::after,
-.wikipedia-flag::after,
-.circle-flag::after {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	pointer-events: none;
-	border-radius: inherit;
-	box-shadow: inset 0 0 0 1px var(--color-image-border);
 }
 
 .icon-set-info-button {
