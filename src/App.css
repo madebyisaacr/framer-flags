@@ -81,6 +81,8 @@ main {
 	display: grid;
 	gap: 8px;
 	padding-bottom: 15px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
 	overflow: auto;
 }
 
@@ -124,13 +126,17 @@ main {
 	object-fit: contain;
 	position: relative;
 	cursor: pointer;
+	aspect-ratio: 3 / 2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .wikipedia-flag img {
-	width: 100%;
-	height: 100%;
-	aspect-ratio: 3 / 2;
+	max-width: 100%;
+	max-height: 100%;
 	object-fit: contain;
+	border-radius: 4px;
 }
 
 .circle-flag {
