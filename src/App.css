@@ -56,8 +56,8 @@ main {
 	width: 100%;
 	display: grid;
 	gap: 10px;
-	border-top-left-radius: 6px;
-	border-top-right-radius: 6px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
 	padding-bottom: 15px;
 	overflow: auto;
 }
@@ -83,10 +83,17 @@ main {
 	grid-template-columns: repeat(auto-fill, minmax(max(100px, calc(100% / 6)), 1fr));
 }
 
-.flag-emoji {
+.twemoji-flag {
 	width: 100%;
 	aspect-ratio: 50 / 36;
 	object-fit: cover;
+}
+
+.wikipedia-flag {
+	width: 100%;
+	aspect-ratio: 3 / 2;
+	object-fit: contain;
+	border-radius: 5px;
 }
 
 .icon-set-dropdown {
