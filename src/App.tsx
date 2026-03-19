@@ -69,16 +69,62 @@ function PaymentCardLogosApp() {
 		useState<keyof typeof WIKIPEDIA_FLAG_SCOPES>("countries");
 
 	const sortedCodes = useMemo(() => [...countryCodes].sort((a, b) => a.localeCompare(b)), []);
+	const sortedWikipediaCountryFlags = useMemo(
+		() => [...wikipediaCountryFlags].sort((a, b) => a.name.localeCompare(b.name)),
+		[]
+	);
 	const unitedStatesFlag = useMemo(
 		() => wikipediaCountryFlags.find((flag) => flag.code === "US"),
 		[]
 	);
 	const wikipediaFlags = useMemo(() => {
-		if (wikipediaScope === "countries") return wikipediaCountryFlags;
+		if (wikipediaScope === "countries") return sortedWikipediaCountryFlags;
 		return unitedStatesFlag
 			? [unitedStatesFlag, ...wikipediaUnitedStatesFlags]
 			: wikipediaUnitedStatesFlags;
-	}, [unitedStatesFlag, wikipediaScope]);
+	}, [sortedWikipediaCountryFlags, unitedStatesFlag, wikipediaScope]);
+	const normalizedQuery = useMemo(() => query.trim().toLowerCase(), [query]);
+	const filteredTwemojiCodes = useMemo(() => {
+		if (iconSet !== "twemoji") return [];
+		if (!normalizedQuery) return sortedCodes;
+		return sortedCodes
+			.filter((code) => {
+				const name = countryNames[code as keyof typeof countryNames] ?? "";
+				const normalizedCode = code.toLowerCase();
+				const normalizedName = name.toLowerCase();
+				return normalizedCode.includes(normalizedQuery) || normalizedName.includes(normalizedQuery);
+			})
+			.sort((a, b) => {
+				const aName = (countryNames[a as keyof typeof countryNames] ?? "").toLowerCase();
+				const bName = (countryNames[b as keyof typeof countryNames] ?? "").toLowerCase();
+				const aCode = a.toLowerCase();
+				const bCode = b.toLowerCase();
+				const aExact = Number(aCode === normalizedQuery || aName === normalizedQuery);
+				const bExact = Number(bCode === normalizedQuery || bName === normalizedQuery);
+				if (aExact !== bExact) return bExact - aExact;
+				return a.localeCompare(b);
+			});
+	}, [iconSet, normalizedQuery, sortedCodes]);
+	const filteredWikipediaFlags = useMemo(() => {
+		if (iconSet !== "wikipedia") return [];
+		if (!normalizedQuery) return wikipediaFlags;
+		return wikipediaFlags
+			.filter((flag) => {
+				const normalizedCode = flag.code?.toLowerCase() ?? "";
+				const normalizedName = flag.name.toLowerCase();
+				return normalizedCode.includes(normalizedQuery) || normalizedName.includes(normalizedQuery);
+			})
+			.sort((a, b) => {
+				const aCode = a.code?.toLowerCase() ?? "";
+				const bCode = b.code?.toLowerCase() ?? "";
+				const aName = a.name.toLowerCase();
+				const bName = b.name.toLowerCase();
+				const aExact = Number(aCode === normalizedQuery || aName === normalizedQuery);
+				const bExact = Number(bCode === normalizedQuery || bName === normalizedQuery);
+				if (aExact !== bExact) return bExact - aExact;
+				return a.name.localeCompare(b.name);
+			});
+	}, [iconSet, normalizedQuery, wikipediaFlags]);
 
 	return (
 		<main className="payment-card-logos">
@@ -127,8 +173,10 @@ function PaymentCardLogosApp() {
 			</div>
 			<div className={cx("grid", framer.mode === "canvas" ? "canvas" : "image")}>
 				{iconSet === "twemoji"
-					? sortedCodes.map((code) => <TwemojiFlag key={code} code={code} />)
-					: wikipediaFlags.map((flag) => <WikipediaFlag key={flag.name} flag={flag} />)}
+					? filteredTwemojiCodes.map((code) => <TwemojiFlag key={code} code={code} />)
+					: filteredWikipediaFlags.map((flag) => (
+							<WikipediaFlag key={`${flag.code}-${flag.name}`} flag={flag} />
+						))}
 			</div>
 		</main>
 	);
