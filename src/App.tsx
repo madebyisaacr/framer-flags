@@ -8,6 +8,7 @@ import { codeToFlag } from "./flags";
 import countryNames from "./data/countryNames.json";
 import countryCodes from "./data/countryCodes.json";
 import wikipediaCountryFlags from "./data/wikipediaCountryFlags.json";
+import wikipediaUnitedStatesFlags from "./data/wikipediaUnitedStatesFlags.json";
 
 const IS_CANVAS = framer.mode === "canvas";
 const IS_LOCALHOST =
@@ -20,6 +21,11 @@ const ICON_SETS = {
 	twemoji: "Twemoji",
 	wikipedia: "Wikipedia",
 	circleFlags: "Circle Flags",
+};
+
+const WIKIPEDIA_FLAG_SCOPES = {
+	countries: "Countries",
+	unitedStates: "United States",
 };
 
 void framer.showUI({
@@ -59,8 +65,20 @@ function PaymentCardLogosApp() {
 
 	const [query, setQuery] = useState("");
 	const [iconSet, setIconSet] = useState<keyof typeof ICON_SETS>("twemoji");
+	const [wikipediaScope, setWikipediaScope] =
+		useState<keyof typeof WIKIPEDIA_FLAG_SCOPES>("countries");
 
 	const sortedCodes = useMemo(() => [...countryCodes].sort((a, b) => a.localeCompare(b)), []);
+	const unitedStatesFlag = useMemo(
+		() => wikipediaCountryFlags.find((flag) => flag.code === "US"),
+		[]
+	);
+	const wikipediaFlags = useMemo(() => {
+		if (wikipediaScope === "countries") return wikipediaCountryFlags;
+		return unitedStatesFlag
+			? [unitedStatesFlag, ...wikipediaUnitedStatesFlags]
+			: wikipediaUnitedStatesFlags;
+	}, [unitedStatesFlag, wikipediaScope]);
 
 	return (
 		<main className="payment-card-logos">
@@ -79,28 +97,45 @@ function PaymentCardLogosApp() {
 					</div>
 				</div>
 			</div>
-			<select
-				value={iconSet}
-				onChange={(e) => setIconSet(e.target.value as keyof typeof ICON_SETS)}
-				className="icon-set-dropdown"
-			>
-				{Object.entries(ICON_SETS).map(([key, value]) => (
-					<option key={key} value={key}>
-						{value}
-					</option>
-				))}
-			</select>
+			<div className="toolbar">
+				<select
+					value={iconSet}
+					onChange={(e) => setIconSet(e.target.value as keyof typeof ICON_SETS)}
+					className="icon-set-dropdown"
+				>
+					{Object.entries(ICON_SETS).map(([key, value]) => (
+						<option key={key} value={key}>
+							{value}
+						</option>
+					))}
+				</select>
+				{iconSet === "wikipedia" && (
+					<select
+						value={wikipediaScope}
+						onChange={(e) =>
+							setWikipediaScope(e.target.value as keyof typeof WIKIPEDIA_FLAG_SCOPES)
+						}
+						className="icon-set-dropdown"
+					>
+						{Object.entries(WIKIPEDIA_FLAG_SCOPES).map(([key, value]) => (
+							<option key={key} value={key}>
+								{value}
+							</option>
+						))}
+					</select>
+				)}
+			</div>
 			<div className={cx("grid", framer.mode === "canvas" ? "canvas" : "image")}>
 				{iconSet === "twemoji"
 					? sortedCodes.map((code) => <TwemojiFlag key={code} code={code} />)
-					: wikipediaCountryFlags.map((flag) => <WikipediaFlag key={flag.name} flag={flag} />)}
+					: wikipediaFlags.map((flag) => <WikipediaFlag key={flag.name} flag={flag} />)}
 			</div>
 		</main>
 	);
 }
 
 function TwemojiFlag({ code }: { code: string }) {
-	const name = countryNames[code] ?? code;
+	const name = countryNames[code as keyof typeof countryNames] ?? code;
 	const emoji = codeToFlag(code);
 	const emojiURL = emojiToURL(emoji);
 
@@ -120,7 +155,9 @@ function TwemojiFlag({ code }: { code: string }) {
 	);
 }
 
-function WikipediaFlag({ flag }: { flag: (typeof wikipediaCountryFlags)[0] }) {
+type WikipediaFlagData = (typeof wikipediaCountryFlags)[0] | (typeof wikipediaUnitedStatesFlags)[0];
+
+function WikipediaFlag({ flag }: { flag: WikipediaFlagData }) {
 	const name = flag.name;
 	const imageURL = flag.imageURL;
 
