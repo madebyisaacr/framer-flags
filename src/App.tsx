@@ -83,31 +83,25 @@ function PaymentCardLogosApp() {
 
 	const sortedCodes = useMemo(() => [...countryCodes].sort((a, b) => a.localeCompare(b)), []);
 	const sortedWikipediaCountryFlags = useMemo(() => {
-		const allWikipediaFlags = (wikipediaFlags as unknown[]).flatMap((entry) =>
-			Array.isArray(entry) ? entry : [entry]
-		);
+		const allWikipediaFlags = wikipediaFlags as unknown[];
 
-		return (allWikipediaFlags as unknown[])
+		return allWikipediaFlags
 			.filter(isWikipediaCombinedFlag)
 			.filter((f) => f.type === "country")
 			.sort((a, b) => a.name.localeCompare(b.name));
 	}, []);
 	const sortedUnitedStatesStateFlags = useMemo(() => {
-		const allWikipediaFlags = (wikipediaFlags as unknown[]).flatMap((entry) =>
-			Array.isArray(entry) ? entry : [entry]
-		);
+		const allWikipediaFlags = wikipediaFlags as unknown[];
 
-		return (allWikipediaFlags as unknown[])
+		return allWikipediaFlags
 			.filter(isWikipediaCombinedFlag)
 			.filter((f) => f.type === "unitedStatesState")
 			.sort((a, b) => a.name.localeCompare(b.name));
 	}, []);
 	const unitedStatesFlag = useMemo(() => {
-		const allWikipediaFlags = (wikipediaFlags as unknown[]).flatMap((entry) =>
-			Array.isArray(entry) ? entry : [entry]
-		);
+		const allWikipediaFlags = wikipediaFlags as unknown[];
 
-		return (allWikipediaFlags as unknown[])
+		return allWikipediaFlags
 			.filter(isWikipediaCombinedFlag)
 			.find((flag) => flag.type === "country" && flag.code === "US");
 	}, []);
