@@ -70,7 +70,7 @@ void framer.showUI({
 	position: "top right",
 	width: IS_CANVAS ? 260 : 600,
 	minWidth: IS_CANVAS ? 260 : 600,
-	maxWidth: 600,
+	maxWidth: 400,
 	height: IS_CANVAS ? 450 : 625,
 	minHeight: 400,
 	maxHeight: 740,
@@ -365,7 +365,7 @@ function TwemojiFlag({ code, isAllowedToEdit }: { code: string; isAllowedToEdit:
 			framer.notify("You don't have permission to edit.", { variant: "error" });
 			return;
 		}
-		await insertImageFrame(name, emojiURL);
+		await insertImage(name, emojiURL);
 	};
 
 	return (
@@ -395,7 +395,7 @@ function CircleFlag({ flag, isAllowedToEdit }: { flag: CircleFlagData; isAllowed
 			framer.notify("You don't have permission to edit.", { variant: "error" });
 			return;
 		}
-		await insertImageFrame(name, imageURL);
+		await insertImage(name, imageURL);
 	};
 
 	return (
@@ -432,7 +432,7 @@ function WikipediaFlag({
 			framer.notify("You don't have permission to edit.", { variant: "error" });
 			return;
 		}
-		await insertImageFrame(name, imageURL);
+		await insertImage(name, imageURL);
 	};
 
 	return (
@@ -488,7 +488,24 @@ async function calculateParentId() {
 	return parentId;
 }
 
-async function insertImageFrame(name: string, imageUrl: string) {
+async function insertImage(name: string, imageUrl: string) {
+	if (!IS_CANVAS) {
+		let success = false;
+		try {
+			await framer.setImage({ image: imageUrl, altText: name });
+			success = true;
+		} catch (error) {
+			console.error(error);
+		}
+
+		if (!success) {
+			framer.notify(`Failed to set image to "${name}" flag`, { variant: "error" });
+			return;
+		}
+
+		void framer.closePlugin();
+	}
+
 	try {
 		const parentId = await calculateParentId();
 

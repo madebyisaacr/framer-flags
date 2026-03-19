@@ -1,6 +1,6 @@
 {
 	"id": "flags1",
 	"name": "Flags",
-	"modes": ["canvas"],
+	"modes": ["canvas", "image"],
 	"icon": "/icon.svg"
 }

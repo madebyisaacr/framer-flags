@@ -76,16 +76,6 @@ main {
 	color: var(--framer-color-text-tertiary);
 }
 
-.grid {
-	width: 100%;
-	display: grid;
-	gap: 8px;
-	padding-bottom: 15px;
-	border-top-left-radius: 4px;
-	border-top-right-radius: 4px;
-	overflow: auto;
-}
-
 .empty-state {
 	display: flex;
 	align-items: center;
@@ -99,12 +89,23 @@ main {
 	pointer-events: none;
 }
 
+.grid {
+	width: 100%;
+	display: grid;
+	padding-bottom: 15px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	overflow: auto;
+}
+
 .grid.canvas {
 	grid-template-columns: repeat(auto-fill, minmax(max(50px, calc(100% / 9)), 1fr));
+	gap: 8px;
 }
 
 .grid.image {
-	grid-template-columns: repeat(auto-fill, minmax(max(100px, calc(100% / 6)), 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(max(60px, calc(100% / 10)), 1fr));
+	gap: 10px;
 }
 
 .twemoji-flag {
