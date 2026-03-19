@@ -1,0 +1,26 @@
+[
+	{
+		"id": "twemoji",
+		"name": "Twemoji",
+		"url": "https://github.com/twitter/twemoji",
+		"license": "MIT License",
+		"licenseUrl": "https://github.com/twitter/twemoji/blob/master/LICENSE"
+	},
+	{
+		"id": "wikipediaCountries",
+		"name": "Wikipedia",
+		"url": "https://en.wikipedia.org/wiki/List_of_national_flags_of_sovereign_states"
+	},
+	{
+		"id": "wikipediaUnitedStates",
+		"name": "Wikipedia",
+		"url": "https://en.wikipedia.org/wiki/Flags_of_the_U.S._states_and_territories"
+	},
+	{
+		"id": "circleFlags",
+		"name": "Circle Flags",
+		"url": "https://github.com/HatScripts/circle-flags",
+		"license": "MIT License",
+		"licenseUrl": "https://github.com/HatScripts/circle-flags/blob/gh-pages/LICENSE.md"
+	}
+]

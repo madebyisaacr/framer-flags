@@ -16,6 +16,7 @@ import countryNames from "./data/countryNames.json";
 import countryCodes from "./data/countryCodes.json";
 import wikipediaFlags from "./data/wikipediaFlags.json";
 import circleFlags from "./data/circleFlags.json";
+import sourcesData from "./data/sources.json";
 
 const IS_CANVAS = framer.mode === "canvas";
 const IS_LOCALHOST =
@@ -48,6 +49,22 @@ type CircleFlagData = {
 	code: string;
 	name: string;
 };
+
+type SourceEntry = {
+	id: string;
+	name: string;
+	url: string;
+	license?: string | null;
+	licenseUrl?: string | null;
+};
+
+const sourcesById = (sourcesData as SourceEntry[]).reduce<Record<string, SourceEntry>>(
+	(acc, entry) => {
+		acc[entry.id] = entry;
+		return acc;
+	},
+	{}
+);
 
 void framer.showUI({
 	position: "top right",
@@ -98,6 +115,9 @@ function PaymentCardLogosApp() {
 		return "twemoji";
 	});
 
+	const [showSourceModal, setShowSourceModal] = useState(false);
+	const [sourceModalIconSet, setSourceModalIconSet] = useState<keyof typeof ICON_SETS>("twemoji");
+
 	const changeIconSet = (next: keyof typeof ICON_SETS) => {
 		setIconSet(next);
 
@@ -108,6 +128,8 @@ function PaymentCardLogosApp() {
 			// Ignore localStorage failures (e.g. blocked by browser settings).
 		}
 	};
+
+	const activeSource = sourcesById[sourceModalIconSet];
 
 	const sortedCodes = useMemo(() => [...countryCodes].sort((a, b) => a.localeCompare(b)), []);
 	const sortedWikipediaCountryFlags = useMemo(() => {
@@ -253,6 +275,32 @@ function PaymentCardLogosApp() {
 						</option>
 					))}
 				</select>
+				<button
+					type="button"
+					className="icon-set-info-button"
+					onClick={() => {
+						setSourceModalIconSet(iconSet);
+						setShowSourceModal(true);
+					}}
+					aria-label="Source information"
+				>
+					<svg
+						width="20"
+						height="20"
+						viewBox="0 0 20 20"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<path
+							d="M10 9V14"
+							stroke="currentColor"
+							strokeWidth="2"
+							strokeLinecap="round"
+							strokeLinejoin="round"
+						></path>
+						<circle cx="10" cy="5.5" r="1.25" fill="currentColor"></circle>
+					</svg>
+				</button>
 			</div>
 			<div className={cx("grid", framer.mode === "canvas" ? "canvas" : "image")}>
 				{iconSet === "twemoji" &&
@@ -272,6 +320,37 @@ function PaymentCardLogosApp() {
 						/>
 					))}
 			</div>
+
+			{showSourceModal && activeSource && (
+				<div className="modal-container">
+					<div className="modal-backdrop" onClick={() => setShowSourceModal(false)} />
+					<div className="modal">
+						<div className="modal-content">
+							<p className="modal-title">Source</p>
+							<p>
+								<a href={activeSource.url} target="_blank" rel="noopener noreferrer">
+									{activeSource.name}
+								</a>
+							</p>
+							{activeSource.license && (
+								<p>
+									License:{" "}
+									{activeSource.licenseUrl ? (
+										<a href={activeSource.licenseUrl} target="_blank" rel="noopener noreferrer">
+											{activeSource.license}
+										</a>
+									) : (
+										activeSource.license
+									)}
+								</p>
+							)}
+						</div>
+						<button type="button" onClick={() => setShowSourceModal(false)}>
+							OK
+						</button>
+					</div>
+				</div>
+			)}
 		</main>
 	);
 }
