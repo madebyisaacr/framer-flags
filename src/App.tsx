@@ -149,38 +149,24 @@ function PaymentCardLogosApp() {
 
 	const activeSource = sourcesById[sourceModalIconSet];
 
-	const sortedCodes = useMemo(
-		() => [...Object.keys(twemojiCountryNames)].sort((a, b) => a.localeCompare(b)),
+	const twemojiCodesInSourceOrder = useMemo(() => Object.keys(twemojiCountryNames), []);
+	const wikipediaCountryFlagsInSourceOrder = useMemo(() => {
+		const allWikipediaFlags = wikipediaFlags as unknown[];
+
+		return allWikipediaFlags.filter(isWikipediaCombinedFlag).filter((f) => f.type === "country");
+	}, []);
+	const unitedStatesStateFlagsInSourceOrder = useMemo(() => {
+		const allWikipediaFlags = wikipediaFlags as unknown[];
+
+		return allWikipediaFlags
+			.filter(isWikipediaCombinedFlag)
+			.filter((f) => f.type === "unitedStatesState");
+	}, []);
+
+	const circleFlagsInSourceOrder = useMemo(
+		() => (circleFlags as unknown as CircleFlagData[]).slice(),
 		[]
 	);
-	const sortedWikipediaCountryFlags = useMemo(() => {
-		const allWikipediaFlags = wikipediaFlags as unknown[];
-
-		return allWikipediaFlags
-			.filter(isWikipediaCombinedFlag)
-			.filter((f) => f.type === "country")
-			.sort((a, b) => a.name.localeCompare(b.name));
-	}, []);
-	const sortedUnitedStatesStateFlags = useMemo(() => {
-		const allWikipediaFlags = wikipediaFlags as unknown[];
-
-		return allWikipediaFlags
-			.filter(isWikipediaCombinedFlag)
-			.filter((f) => f.type === "unitedStatesState")
-			.sort((a, b) => a.name.localeCompare(b.name));
-	}, []);
-
-	const sortedCircleFlags = useMemo(() => {
-		const allCircleFlags = circleFlags as unknown as CircleFlagData[];
-		return allCircleFlags.slice().sort((a, b) => {
-			const aName = (a.name || "").trim();
-			const bName = (b.name || "").trim();
-			if (aName && bName) return aName.localeCompare(bName);
-			if (aName && !bName) return -1;
-			if (!aName && bName) return 1;
-			return a.code.localeCompare(b.code);
-		});
-	}, []);
 	const unitedStatesFlag = useMemo(() => {
 		const allWikipediaFlags = wikipediaFlags as unknown[];
 
@@ -190,19 +176,24 @@ function PaymentCardLogosApp() {
 	}, []);
 
 	const wikipediaFlagsForSelectedType = useMemo(() => {
-		if (iconSet === "wikipediaCountries") return sortedWikipediaCountryFlags;
+		if (iconSet === "wikipediaCountries") return wikipediaCountryFlagsInSourceOrder;
 		if (iconSet === "wikipediaUnitedStates") {
 			return unitedStatesFlag
-				? [unitedStatesFlag, ...sortedUnitedStatesStateFlags]
-				: sortedUnitedStatesStateFlags;
+				? [unitedStatesFlag, ...unitedStatesStateFlagsInSourceOrder]
+				: unitedStatesStateFlagsInSourceOrder;
 		}
 		return [] as WikipediaCombinedFlag[];
-	}, [iconSet, sortedWikipediaCountryFlags, sortedUnitedStatesStateFlags, unitedStatesFlag]);
+	}, [
+		iconSet,
+		wikipediaCountryFlagsInSourceOrder,
+		unitedStatesStateFlagsInSourceOrder,
+		unitedStatesFlag,
+	]);
 	const normalizedQuery = useMemo(() => query.trim().toLowerCase(), [query]);
 	const filteredTwemojiCodes = useMemo(() => {
 		if (iconSet !== "twemoji") return [];
-		if (!normalizedQuery) return sortedCodes;
-		return sortedCodes
+		if (!normalizedQuery) return twemojiCodesInSourceOrder;
+		return twemojiCodesInSourceOrder
 			.filter((code) => {
 				const name = twemojiCountryNames[code as TwemojiCountryCode] ?? "";
 				const normalizedCode = code.toLowerCase();
@@ -219,7 +210,7 @@ function PaymentCardLogosApp() {
 				if (aExact !== bExact) return bExact - aExact;
 				return a.localeCompare(b);
 			});
-	}, [iconSet, normalizedQuery, sortedCodes]);
+	}, [iconSet, normalizedQuery, twemojiCodesInSourceOrder]);
 	const filteredWikipediaFlags = useMemo(() => {
 		if (iconSet !== "wikipediaCountries" && iconSet !== "wikipediaUnitedStates") return [];
 		if (!normalizedQuery) return wikipediaFlagsForSelectedType;
@@ -248,9 +239,9 @@ function PaymentCardLogosApp() {
 
 	const filteredCircleFlags = useMemo(() => {
 		if (iconSet !== "circleFlags") return [];
-		if (!normalizedQuery) return sortedCircleFlags;
+		if (!normalizedQuery) return circleFlagsInSourceOrder;
 
-		return sortedCircleFlags
+		return circleFlagsInSourceOrder
 			.filter((flag) => {
 				const code = flag.code.toLowerCase();
 				const name = (flag.name || "").toLowerCase();
@@ -274,7 +265,7 @@ function PaymentCardLogosApp() {
 				const bSort = bName || bCode;
 				return aSort.localeCompare(bSort);
 			});
-	}, [iconSet, normalizedQuery, sortedCircleFlags]);
+	}, [iconSet, normalizedQuery, circleFlagsInSourceOrder]);
 
 	return (
 		<main className="payment-card-logos">
