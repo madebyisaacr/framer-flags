@@ -14,8 +14,7 @@ import "./App.css";
 import { codeToFlag } from "./flags";
 import countryNames from "./data/countryNames.json";
 import countryCodes from "./data/countryCodes.json";
-import wikipediaCountryFlags from "./data/wikipediaCountryFlags.json";
-import wikipediaUnitedStatesFlags from "./data/wikipediaUnitedStatesFlags.json";
+import wikipediaFlags from "./data/wikipediaFlags.json";
 
 const IS_CANVAS = framer.mode === "canvas";
 const IS_LOCALHOST =
@@ -33,6 +32,13 @@ const ICON_SETS = {
 const WIKIPEDIA_FLAG_SCOPES = {
 	countries: "Countries",
 	unitedStates: "United States",
+};
+
+type WikipediaCombinedFlag = {
+	type: "country" | "unitedStatesState";
+	code: string;
+	name: string;
+	imageURL: string;
 };
 
 void framer.showUI({
@@ -76,20 +82,42 @@ function PaymentCardLogosApp() {
 		useState<keyof typeof WIKIPEDIA_FLAG_SCOPES>("countries");
 
 	const sortedCodes = useMemo(() => [...countryCodes].sort((a, b) => a.localeCompare(b)), []);
-	const sortedWikipediaCountryFlags = useMemo(
-		() => [...wikipediaCountryFlags].sort((a, b) => a.name.localeCompare(b.name)),
-		[]
-	);
-	const unitedStatesFlag = useMemo(
-		() => wikipediaCountryFlags.find((flag) => flag.code === "US"),
-		[]
-	);
-	const wikipediaFlags = useMemo(() => {
+	const sortedWikipediaCountryFlags = useMemo(() => {
+		const allWikipediaFlags = (wikipediaFlags as unknown[]).flatMap((entry) =>
+			Array.isArray(entry) ? entry : [entry]
+		);
+
+		return (allWikipediaFlags as unknown[])
+			.filter(isWikipediaCombinedFlag)
+			.filter((f) => f.type === "country")
+			.sort((a, b) => a.name.localeCompare(b.name));
+	}, []);
+	const sortedUnitedStatesStateFlags = useMemo(() => {
+		const allWikipediaFlags = (wikipediaFlags as unknown[]).flatMap((entry) =>
+			Array.isArray(entry) ? entry : [entry]
+		);
+
+		return (allWikipediaFlags as unknown[])
+			.filter(isWikipediaCombinedFlag)
+			.filter((f) => f.type === "unitedStatesState")
+			.sort((a, b) => a.name.localeCompare(b.name));
+	}, []);
+	const unitedStatesFlag = useMemo(() => {
+		const allWikipediaFlags = (wikipediaFlags as unknown[]).flatMap((entry) =>
+			Array.isArray(entry) ? entry : [entry]
+		);
+
+		return (allWikipediaFlags as unknown[])
+			.filter(isWikipediaCombinedFlag)
+			.find((flag) => flag.type === "country" && flag.code === "US");
+	}, []);
+
+	const wikipediaFlagsForScope = useMemo(() => {
 		if (wikipediaScope === "countries") return sortedWikipediaCountryFlags;
 		return unitedStatesFlag
-			? [unitedStatesFlag, ...wikipediaUnitedStatesFlags]
-			: wikipediaUnitedStatesFlags;
-	}, [sortedWikipediaCountryFlags, unitedStatesFlag, wikipediaScope]);
+			? [unitedStatesFlag, ...sortedUnitedStatesStateFlags]
+			: sortedUnitedStatesStateFlags;
+	}, [sortedWikipediaCountryFlags, sortedUnitedStatesStateFlags, unitedStatesFlag, wikipediaScope]);
 	const normalizedQuery = useMemo(() => query.trim().toLowerCase(), [query]);
 	const filteredTwemojiCodes = useMemo(() => {
 		if (iconSet !== "twemoji") return [];
@@ -114,8 +142,8 @@ function PaymentCardLogosApp() {
 	}, [iconSet, normalizedQuery, sortedCodes]);
 	const filteredWikipediaFlags = useMemo(() => {
 		if (iconSet !== "wikipedia") return [];
-		if (!normalizedQuery) return wikipediaFlags;
-		return wikipediaFlags
+		if (!normalizedQuery) return wikipediaFlagsForScope;
+		return wikipediaFlagsForScope
 			.filter((flag) => {
 				const normalizedCode = flag.code?.toLowerCase() ?? "";
 				const normalizedName = flag.name.toLowerCase();
@@ -131,7 +159,7 @@ function PaymentCardLogosApp() {
 				if (aExact !== bExact) return bExact - aExact;
 				return a.name.localeCompare(b.name);
 			});
-	}, [iconSet, normalizedQuery, wikipediaFlags]);
+	}, [iconSet, normalizedQuery, wikipediaFlagsForScope]);
 
 	return (
 		<main className="payment-card-logos">
@@ -180,21 +208,31 @@ function PaymentCardLogosApp() {
 			</div>
 			<div className={cx("grid", framer.mode === "canvas" ? "canvas" : "image")}>
 				{iconSet === "twemoji"
-					? filteredTwemojiCodes.map((code) => <TwemojiFlag key={code} code={code} />)
+					? filteredTwemojiCodes.map((code) => (
+							<TwemojiFlag key={code} code={code} isAllowedToEdit={isAllowedToEdit} />
+						))
 					: filteredWikipediaFlags.map((flag) => (
-							<WikipediaFlag key={`${flag.code}-${flag.name}`} flag={flag} />
+							<WikipediaFlag
+								key={`${flag.code}-${flag.name}`}
+								flag={flag}
+								isAllowedToEdit={isAllowedToEdit}
+							/>
 						))}
 			</div>
 		</main>
 	);
 }
 
-function TwemojiFlag({ code }: { code: string }) {
+function TwemojiFlag({ code, isAllowedToEdit }: { code: string; isAllowedToEdit: boolean }) {
 	const name = countryNames[code as keyof typeof countryNames] ?? code;
 	const emoji = codeToFlag(code);
 	const emojiURL = emojiToURL(emoji);
 
 	const onClick = async () => {
+		if (!isAllowedToEdit) {
+			framer.notify("You don't have permission to edit.", { variant: "error" });
+			return;
+		}
 		await insertImageFrame(name, emojiURL);
 	};
 
@@ -221,12 +259,22 @@ function TwemojiFlag({ code }: { code: string }) {
 	);
 }
 
-type WikipediaFlagData = (typeof wikipediaCountryFlags)[0] | (typeof wikipediaUnitedStatesFlags)[0];
+type WikipediaFlagData = WikipediaCombinedFlag;
 
-function WikipediaFlag({ flag }: { flag: WikipediaFlagData }) {
+function WikipediaFlag({
+	flag,
+	isAllowedToEdit,
+}: {
+	flag: WikipediaFlagData;
+	isAllowedToEdit: boolean;
+}) {
 	const name = flag.name;
 	const imageURL = flag.imageURL;
 	const onClick = async () => {
+		if (!isAllowedToEdit) {
+			framer.notify("You don't have permission to edit.", { variant: "error" });
+			return;
+		}
 		await insertImageFrame(name, imageURL);
 	};
 
@@ -308,4 +356,15 @@ async function insertImageFrame(name: string, imageUrl: string) {
 	} catch {
 		framer.notify(`Couldn't add ${name}`, { variant: "error" });
 	}
+}
+
+function isWikipediaCombinedFlag(value: unknown): value is WikipediaCombinedFlag {
+	if (!value || typeof value !== "object") return false;
+	const v = value as { type?: unknown; code?: unknown; name?: unknown; imageURL?: unknown };
+	return (
+		(v.type === "country" || v.type === "unitedStatesState") &&
+		typeof v.code === "string" &&
+		typeof v.name === "string" &&
+		typeof v.imageURL === "string"
+	);
 }
