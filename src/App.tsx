@@ -1,20 +1,12 @@
-import {
-	framer,
-	Draggable,
-	useIsAllowedTo,
-	isFrameNode,
-	isWebPageNode,
-	isComponentNode,
-	type CanvasRootNode,
-	type FrameNode,
-} from "framer-plugin";
-import { useEffect, useRef, useState } from "react";
+import { Draggable, framer, useIsAllowedTo } from "framer-plugin";
+import { useEffect, useMemo, useState } from "react";
 import AdminUI from "./AdminUI";
 import { SearchIcon } from "./Icons";
 import cx from "classnames";
-import { copyToClipboard } from "./utils";
 import "./App.css";
-import { generateAllFlagEmojis } from "./flags";
+import { codeToFlag } from "./flags";
+import countryNames from "./data/countryNames.json";
+import countryCodes from "./data/countryCodes.json";
 
 const IS_CANVAS = framer.mode === "canvas";
 const IS_LOCALHOST =
@@ -22,6 +14,12 @@ const IS_LOCALHOST =
 	(window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1");
 
 const PERMISSION_METHODS = IS_CANVAS ? ["createFrameNode", "setImage"] : ["setImage"];
+
+const ICON_SETS = {
+	twemoji: "Twemoji",
+	wikipedia: "Wikipedia",
+	circleFlags: "Circle Flags",
+};
 
 void framer.showUI({
 	position: "top right",
@@ -59,6 +57,9 @@ function PaymentCardLogosApp() {
 	);
 
 	const [query, setQuery] = useState("");
+	const [iconSet, setIconSet] = useState<keyof typeof ICON_SETS>("twemoji");
+
+	const sortedCodes = useMemo(() => [...countryCodes].sort((a, b) => a.localeCompare(b)), []);
 
 	return (
 		<main className="payment-card-logos">
@@ -77,7 +78,48 @@ function PaymentCardLogosApp() {
 					</div>
 				</div>
 			</div>
-			{generateAllFlagEmojis()}
+			<select
+				value={iconSet}
+				onChange={(e) => setIconSet(e.target.value as keyof typeof ICON_SETS)}
+				className="icon-set-dropdown"
+			>
+				{Object.entries(ICON_SETS).map(([key, value]) => (
+					<option key={key} value={key}>
+						{value}
+					</option>
+				))}
+			</select>
+			<div className={cx("grid", framer.mode === "canvas" ? "canvas" : "image")}>
+				{sortedCodes.map((code) => (
+					<TwemojiFlag key={code} code={code} />
+				))}
+			</div>
 		</main>
 	);
+}
+
+function TwemojiFlag({ code }: { code: string }) {
+	const name = countryNames[code] ?? code;
+	const emoji = codeToFlag(code);
+	const emojiURL = emojiToURL(emoji);
+
+	return (
+		<Draggable
+			key={code}
+			data={{
+				type: "image",
+				image: emojiURL,
+				previewImage: emojiURL,
+				name,
+				altText: name,
+			}}
+		>
+			<img src={emojiURL} alt={name} title={name} className="flag-emoji" draggable={false} />
+		</Draggable>
+	);
+}
+
+function emojiToURL(emoji: string): string {
+	const codepoint = [...emoji].map((char) => (char.codePointAt(0) ?? 0).toString(16)).join("-");
+	return `https://cdnjs.cloudflare.com/ajax/libs/twemoji/15.1.0/72x72/${codepoint}.png`;
 }
