@@ -12,8 +12,7 @@ import { SearchIcon } from "./Icons";
 import cx from "classnames";
 import "./App.css";
 import { codeToFlag } from "./flags";
-import countryNames from "./data/countryNames.json";
-import countryCodes from "./data/countryCodes.json";
+import twemojiCountryNames from "./data/twemojiCountryNames.json";
 import wikipediaFlags from "./data/wikipediaFlags.json";
 import circleFlags from "./data/circleFlags.json";
 import sourcesData from "./data/sources.json";
@@ -57,6 +56,8 @@ type SourceEntry = {
 	license?: string | null;
 	licenseUrl?: string | null;
 };
+
+type TwemojiCountryCode = keyof typeof twemojiCountryNames;
 
 const sourcesById = (sourcesData as SourceEntry[]).reduce<Record<string, SourceEntry>>(
 	(acc, entry) => {
@@ -139,7 +140,10 @@ function PaymentCardLogosApp() {
 
 	const activeSource = sourcesById[sourceModalIconSet];
 
-	const sortedCodes = useMemo(() => [...countryCodes].sort((a, b) => a.localeCompare(b)), []);
+	const sortedCodes = useMemo(
+		() => [...Object.keys(twemojiCountryNames)].sort((a, b) => a.localeCompare(b)),
+		[]
+	);
 	const sortedWikipediaCountryFlags = useMemo(() => {
 		const allWikipediaFlags = wikipediaFlags as unknown[];
 
@@ -191,14 +195,14 @@ function PaymentCardLogosApp() {
 		if (!normalizedQuery) return sortedCodes;
 		return sortedCodes
 			.filter((code) => {
-				const name = countryNames[code as keyof typeof countryNames] ?? "";
+				const name = twemojiCountryNames[code as TwemojiCountryCode] ?? "";
 				const normalizedCode = code.toLowerCase();
 				const normalizedName = name.toLowerCase();
 				return normalizedCode.includes(normalizedQuery) || normalizedName.includes(normalizedQuery);
 			})
 			.sort((a, b) => {
-				const aName = (countryNames[a as keyof typeof countryNames] ?? "").toLowerCase();
-				const bName = (countryNames[b as keyof typeof countryNames] ?? "").toLowerCase();
+				const aName = (twemojiCountryNames[a as TwemojiCountryCode] ?? "").toLowerCase();
+				const bName = (twemojiCountryNames[b as TwemojiCountryCode] ?? "").toLowerCase();
 				const aCode = a.toLowerCase();
 				const bCode = b.toLowerCase();
 				const aExact = Number(aCode === normalizedQuery || aName === normalizedQuery);
@@ -364,7 +368,7 @@ function PaymentCardLogosApp() {
 }
 
 function TwemojiFlag({ code, isAllowedToEdit }: { code: string; isAllowedToEdit: boolean }) {
-	const name = countryNames[code as keyof typeof countryNames] ?? code;
+	const name = twemojiCountryNames[code as TwemojiCountryCode] ?? code;
 	const emoji = codeToFlag(code);
 	const emojiURL = emojiToURL(emoji);
 
@@ -507,7 +511,7 @@ async function insertImage(name: string, imageUrl: string) {
 		}
 
 		if (!success) {
-			framer.notify(`Failed to set image to "${name}" flag`, { variant: "error" });
+			framer.notify(`Failed to insert "${name}" flag`, { variant: "error" });
 			return;
 		}
 
