@@ -551,7 +551,7 @@ async function insertImage(name: string, imageUrl: string) {
 			return;
 		}
 
-		void framer.closePlugin();
+		void framer.closePlugin(`Inserted ${name} flag`, { variant: "success" });
 	}
 
 	try {
