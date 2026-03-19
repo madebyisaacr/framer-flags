@@ -66,16 +66,24 @@ const sourcesById = (sourcesData as SourceEntry[]).reduce<Record<string, SourceE
 	{}
 );
 
-void framer.showUI({
-	position: "top right",
-	width: IS_CANVAS ? 260 : 600,
-	minWidth: IS_CANVAS ? 260 : 600,
-	maxWidth: 400,
-	height: IS_CANVAS ? 450 : 625,
-	minHeight: 400,
-	maxHeight: 740,
-	resizable: IS_CANVAS,
-});
+if (IS_CANVAS) {
+	void framer.showUI({
+		position: "top right",
+		width: 260,
+		minWidth: 260,
+		maxWidth: 400,
+		height: 450,
+		minHeight: 400,
+		maxHeight: 740,
+		resizable: true,
+	});
+} else {
+	void framer.showUI({
+		width: 600,
+		height: 500,
+		resizable: false,
+	});
+}
 
 export function App() {
 	const [showAdminUI, setShowAdminUI] = useState(false);
