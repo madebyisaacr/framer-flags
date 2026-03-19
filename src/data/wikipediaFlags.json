@@ -1438,6 +1438,7 @@
 		"type": "country",
 		"code": "US",
 		"name": "United States",
+		"tags": "usa, american, united states of america, U.S.A., U.S.",
 		"wikipediaImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/250px-Flag_of_the_United_States.svg.png",
 		"imageUrl": "https://framerusercontent.com/images/qq0Pc0aUYlwx9pD1eIFpEWyY7Y.svg"
 	},
@@ -1921,6 +1922,7 @@
 		"type": "unitedStatesState",
 		"code": "DC",
 		"name": "Washington, D.C.",
+		"tags": "district of columbia, washington dc",
 		"wikipediaImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Washington%2C_D.C.svg/250px-Flag_of_Washington%2C_D.C.svg.png",
 		"imageUrl": "https://framerusercontent.com/images/21gTSE2LI5xW4un7N8J2OqhnQgc.svg"
 	},

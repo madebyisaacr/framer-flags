@@ -43,11 +43,13 @@ type WikipediaCombinedFlag = {
 	code: string;
 	name: string;
 	imageUrl: string;
+	tags?: string;
 };
 
 type CircleFlagData = {
 	code: string;
 	name: string;
+	tags?: string;
 };
 
 type SourceEntry = {
@@ -218,13 +220,18 @@ function PaymentCardLogosApp() {
 		if (!normalizedQuery) return wikipediaFlagsForSelectedType;
 		return wikipediaFlagsForSelectedType
 			.filter((flag) => {
-				const normalizedCode = flag.code?.toLowerCase() ?? "";
+				const normalizedCode = (flag.code?.toLowerCase() ?? "").split("_")[0];
 				const normalizedName = flag.name.toLowerCase();
-				return normalizedCode.includes(normalizedQuery) || normalizedName.includes(normalizedQuery);
+				const normalizedTags = (flag.tags ?? "").toLowerCase();
+				return (
+					normalizedCode.includes(normalizedQuery) ||
+					normalizedName.includes(normalizedQuery) ||
+					normalizedTags.includes(normalizedQuery)
+				);
 			})
 			.sort((a, b) => {
-				const aCode = a.code?.toLowerCase() ?? "";
-				const bCode = b.code?.toLowerCase() ?? "";
+				const aCode = (a.code?.toLowerCase() ?? "").split("_")[0];
+				const bCode = (b.code?.toLowerCase() ?? "").split("_")[0];
 				const aName = a.name.toLowerCase();
 				const bName = b.name.toLowerCase();
 				const aExact = Number(aCode === normalizedQuery || aName === normalizedQuery);
@@ -242,14 +249,18 @@ function PaymentCardLogosApp() {
 			.filter((flag) => {
 				const code = flag.code.toLowerCase();
 				const name = (flag.name || "").toLowerCase();
-				return code.includes(normalizedQuery) || name.includes(normalizedQuery);
+				const tags = (flag.tags || "").toLowerCase();
+				return (
+					code.includes(normalizedQuery) ||
+					name.includes(normalizedQuery) ||
+					tags.includes(normalizedQuery)
+				);
 			})
 			.sort((a, b) => {
 				const aCode = a.code.toLowerCase();
 				const bCode = b.code.toLowerCase();
 				const aName = (a.name || "").toLowerCase();
 				const bName = (b.name || "").toLowerCase();
-
 				const aExact = Number(aCode === normalizedQuery || aName === normalizedQuery);
 				const bExact = Number(bCode === normalizedQuery || bName === normalizedQuery);
 				if (aExact !== bExact) return bExact - aExact;
@@ -560,11 +571,18 @@ async function insertImage(name: string, imageUrl: string) {
 
 function isWikipediaCombinedFlag(value: unknown): value is WikipediaCombinedFlag {
 	if (!value || typeof value !== "object") return false;
-	const v = value as { type?: unknown; code?: unknown; name?: unknown; imageUrl?: unknown };
+	const v = value as {
+		type?: unknown;
+		code?: unknown;
+		name?: unknown;
+		imageUrl?: unknown;
+		tags?: unknown;
+	};
 	return (
 		(v.type === "country" || v.type === "unitedStatesState") &&
 		typeof v.code === "string" &&
 		typeof v.name === "string" &&
-		typeof v.imageUrl === "string"
+		typeof v.imageUrl === "string" &&
+		(typeof v.tags === "undefined" || typeof v.tags === "string")
 	);
 }
