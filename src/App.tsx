@@ -6,7 +6,7 @@ import {
 	isWebPageNode,
 	isComponentNode,
 } from "framer-plugin";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import AdminUI from "./AdminUI";
 import { SearchIcon } from "./Icons";
 import cx from "classnames";
@@ -114,6 +114,8 @@ function PaymentCardLogosApp() {
 	);
 
 	const [query, setQuery] = useState("");
+	const searchInputRef = useRef<HTMLInputElement>(null);
+	const gridRef = useRef<HTMLDivElement>(null);
 	const [iconSet, setIconSet] = useState<keyof typeof ICON_SETS>(() => {
 		if (typeof window === "undefined") return DEFAULT_ICON_SET;
 
@@ -133,6 +135,8 @@ function PaymentCardLogosApp() {
 
 	const changeIconSet = (next: keyof typeof ICON_SETS) => {
 		setIconSet(next);
+		searchInputRef.current?.focus();
+		gridRef.current?.scrollTo({ top: 0 });
 
 		if (typeof window === "undefined") return;
 		try {
@@ -279,6 +283,7 @@ function PaymentCardLogosApp() {
 						type="text"
 						placeholder="Search…"
 						value={query}
+						ref={searchInputRef}
 						className="search-input"
 						onChange={(e) => setQuery(e.target.value)}
 						autoFocus
@@ -327,7 +332,7 @@ function PaymentCardLogosApp() {
 					</svg>
 				</button>
 			</div>
-			<div className={cx("grid", framer.mode === "canvas" ? "canvas" : "image")}>
+			<div className={cx("grid", framer.mode === "canvas" ? "canvas" : "image")} ref={gridRef}>
 				{iconSet === "twemoji" &&
 					filteredTwemojiCodes.map((code) => (
 						<TwemojiFlag key={code} code={code} isAllowedToEdit={isAllowedToEdit} />
@@ -564,9 +569,11 @@ async function insertImage(name: string, imageUrl: string) {
 
 		if (frame) {
 			void framer.setSelection([frame.id]);
+
+			void framer.notify(`Inserted ${name} flag`, { variant: "success" });
 		}
 	} catch {
-		framer.notify(`Couldn't add ${name}`, { variant: "error" });
+		framer.notify(`Failed to insert ${name} flag`, { variant: "error" });
 	}
 }
 
