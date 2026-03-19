@@ -126,11 +126,16 @@ for (let i = 0; i < entries.length; i++) {
 	if (!item || typeof item !== "object") continue;
 	if (typeof item.pngImageUrl !== "string" || !item.pngImageUrl) continue;
 	if (typeof item.code !== "string" || !item.code) continue;
+	if (typeof item.type !== "string" || !item.type) continue;
 
 	const safeName = safeFileName(item.code);
-	const filePath = path.join(outputDir, `${safeName}.svg`);
+	const typeDir = path.join(outputDir, item.type);
+	const filePath = path.join(typeDir, `${safeName}.svg`);
 
-	// If multiple entries share the same `code`, they would collide on `${code}.svg`.
+	// Ensure subfolders exist (you said they already do, but this keeps the script robust).
+	fs.mkdirSync(typeDir, { recursive: true });
+
+	// If multiple entries share the same `code` + `type`, they would collide.
 	// Skip work if we already generated the file.
 	if (fs.existsSync(filePath)) {
 		const size = fs.statSync(filePath).size;

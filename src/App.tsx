@@ -42,7 +42,7 @@ type WikipediaCombinedFlag = {
 	type: "country" | "unitedStatesState";
 	code: string;
 	name: string;
-	imageURL: string;
+	pngImageUrl: string;
 };
 
 type CircleFlagData = {
@@ -440,7 +440,7 @@ function WikipediaFlag({
 	isAllowedToEdit: boolean;
 }) {
 	const name = flag.name;
-	const imageURL = flag.imageURL;
+	const imageURL = flag.pngImageUrl;
 	const onClick = async () => {
 		if (!isAllowedToEdit) {
 			framer.notify("You don't have permission to edit.", { variant: "error" });
@@ -553,11 +553,11 @@ async function insertImage(name: string, imageUrl: string) {
 
 function isWikipediaCombinedFlag(value: unknown): value is WikipediaCombinedFlag {
 	if (!value || typeof value !== "object") return false;
-	const v = value as { type?: unknown; code?: unknown; name?: unknown; imageURL?: unknown };
+	const v = value as { type?: unknown; code?: unknown; name?: unknown; pngImageUrl?: unknown };
 	return (
 		(v.type === "country" || v.type === "unitedStatesState") &&
 		typeof v.code === "string" &&
 		typeof v.name === "string" &&
-		typeof v.imageURL === "string"
+		typeof v.pngImageUrl === "string"
 	);
 }

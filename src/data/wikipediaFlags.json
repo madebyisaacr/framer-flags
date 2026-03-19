@@ -7,7 +7,7 @@
 	},
 	{
 		"type": "country",
-		"code": "AF",
+		"code": "AF_2",
 		"name": "Afghanistan (Islamic Republic)",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Flag_of_Afghanistan_%282013%E2%80%932021%29.svg/250px-Flag_of_Afghanistan_%282013%E2%80%932021%29.svg.png"
 	},
@@ -31,7 +31,7 @@
 	},
 	{
 		"type": "country",
-		"code": "AD",
+		"code": "AD_2",
 		"name": "State Flag of Andorra",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Andorra.svg/250px-Flag_of_Andorra.svg.png"
 	},
@@ -55,7 +55,7 @@
 	},
 	{
 		"type": "country",
-		"code": "AR",
+		"code": "AR_2",
 		"name": "State Flag of Argentina",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/250px-Flag_of_Argentina.svg.png"
 	},
@@ -79,7 +79,7 @@
 	},
 	{
 		"type": "country",
-		"code": "AT",
+		"code": "AT_2",
 		"name": "State flag of Austria",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Austria_%28state%29.svg/250px-Flag_of_Austria_%28state%29.svg.png"
 	},
@@ -151,7 +151,7 @@
 	},
 	{
 		"type": "country",
-		"code": "BO",
+		"code": "BO_2",
 		"name": "State flag of Bolivia",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Bandera_de_Bolivia_%28Estado%29.svg/250px-Bandera_de_Bolivia_%28Estado%29.svg.png"
 	},
@@ -277,7 +277,7 @@
 	},
 	{
 		"type": "country",
-		"code": "CR",
+		"code": "CR_2",
 		"name": "State flag of Costa Rica",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Costa_Rica_%28state%29.svg/250px-Flag_of_Costa_Rica_%28state%29.svg.png"
 	},
@@ -313,7 +313,7 @@
 	},
 	{
 		"type": "country",
-		"code": "DK",
+		"code": "DK_2",
 		"name": "State flag of Denmark",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Denmark_%28state%29.svg/250px-Flag_of_Denmark_%28state%29.svg.png"
 	},
@@ -337,7 +337,7 @@
 	},
 	{
 		"type": "country",
-		"code": "DO",
+		"code": "DO_2",
 		"name": "State flag of the Dominican Republic",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_the_Dominican_Republic.svg/250px-Flag_of_the_Dominican_Republic.svg.png"
 	},
@@ -361,7 +361,7 @@
 	},
 	{
 		"type": "country",
-		"code": "SV",
+		"code": "SV_2",
 		"name": "State flag of El Salvador",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_El_Salvador.svg/250px-Flag_of_El_Salvador.svg.png"
 	},
@@ -409,7 +409,7 @@
 	},
 	{
 		"type": "country",
-		"code": "FI",
+		"code": "FI_2",
 		"name": "State flag of Finland",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Finland_%28state%29.svg/250px-Flag_of_Finland_%28state%29.svg.png"
 	},
@@ -445,7 +445,7 @@
 	},
 	{
 		"type": "country",
-		"code": "DE",
+		"code": "DE_2",
 		"name": "State flag of Germany",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Flag_of_Germany_%28state%29.svg/250px-Flag_of_Germany_%28state%29.svg.png"
 	},
@@ -475,7 +475,7 @@
 	},
 	{
 		"type": "country",
-		"code": "GT",
+		"code": "GT_2",
 		"name": "State flag of Guatemala",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Flag_of_Guatemala.svg/250px-Flag_of_Guatemala.svg.png"
 	},
@@ -505,7 +505,7 @@
 	},
 	{
 		"type": "country",
-		"code": "HT",
+		"code": "HT_2",
 		"name": "State flag of Haiti",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Haiti.svg/250px-Flag_of_Haiti.svg.png"
 	},
@@ -529,7 +529,7 @@
 	},
 	{
 		"type": "country",
-		"code": "IS",
+		"code": "IS_2",
 		"name": "State flag of Iceland",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_Iceland_%28state%29.svg/250px-Flag_of_Iceland_%28state%29.svg.png"
 	},
@@ -859,7 +859,7 @@
 	},
 	{
 		"type": "country",
-		"code": "NO",
+		"code": "NO_2",
 		"name": "State flag of Norway",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Flag_of_Norway%2C_state.svg/250px-Flag_of_Norway%2C_state.svg.png"
 	},
@@ -907,7 +907,7 @@
 	},
 	{
 		"type": "country",
-		"code": "PY",
+		"code": "PY_2",
 		"name": "Paraguay (reverse)",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Flag_of_Paraguay_%28reverse%29.svg/250px-Flag_of_Paraguay_%28reverse%29.svg.png"
 	},
@@ -919,7 +919,7 @@
 	},
 	{
 		"type": "country",
-		"code": "PE",
+		"code": "PE_2",
 		"name": "State flag of Peru",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Flag_of_Peru_%28state%29.svg/250px-Flag_of_Peru_%28state%29.svg.png"
 	},
@@ -937,7 +937,7 @@
 	},
 	{
 		"type": "country",
-		"code": "PL",
+		"code": "PL_2",
 		"name": "State and Civil flag of Poland",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Flag_of_Poland_%28with_coat_of_arms%29.svg/250px-Flag_of_Poland_%28with_coat_of_arms%29.svg.png"
 	},
@@ -1027,7 +1027,7 @@
 	},
 	{
 		"type": "country",
-		"code": "RS",
+		"code": "RS_2",
 		"name": "State flag of Serbia",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/250px-Flag_of_Serbia.svg.png"
 	},
@@ -1099,7 +1099,7 @@
 	},
 	{
 		"type": "country",
-		"code": "ES",
+		"code": "ES_2",
 		"name": "National flag of Spain",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/250px-Flag_of_Spain.svg.png"
 	},
@@ -1243,13 +1243,13 @@
 	},
 	{
 		"type": "country",
-		"code": "UY",
+		"code": "UY_2",
 		"name": "Artigas",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Flag_of_Artigas.svg/250px-Flag_of_Artigas.svg.png"
 	},
 	{
 		"type": "country",
-		"code": "UY",
+		"code": "UY_3",
 		"name": "Treinta y Tres",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_the_Treinta_y_Tres.svg/250px-Flag_of_the_Treinta_y_Tres.svg.png"
 	},
@@ -1279,7 +1279,7 @@
 	},
 	{
 		"type": "country",
-		"code": "VE",
+		"code": "VE_2",
 		"name": "State flag of Venezuela",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Flag_of_Venezuela_%28state%29.svg/250px-Flag_of_Venezuela_%28state%29.svg.png"
 	},
@@ -1339,7 +1339,7 @@
 	},
 	{
 		"type": "unitedStatesState",
-		"code": "AL",
+		"code": "AL_2",
 		"name": "Alabama",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Alabama.svg/250px-Flag_of_Alabama.svg.png"
 	},
@@ -1351,25 +1351,25 @@
 	},
 	{
 		"type": "unitedStatesState",
-		"code": "AZ",
+		"code": "AZ_2",
 		"name": "Arizona",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Arizona.svg/250px-Flag_of_Arizona.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
-		"code": "AR",
+		"code": "AR_3",
 		"name": "Arkansas",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Arkansas.svg/250px-Flag_of_Arkansas.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
-		"code": "CA",
+		"code": "CA_2",
 		"name": "California",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_California.svg/250px-Flag_of_California.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
-		"code": "CO",
+		"code": "CO_2",
 		"name": "Colorado",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Flag_of_Colorado.svg/250px-Flag_of_Colorado.svg.png"
 	},
@@ -1381,7 +1381,7 @@
 	},
 	{
 		"type": "unitedStatesState",
-		"code": "DE",
+		"code": "DE_3",
 		"name": "Delaware",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Flag_of_Delaware.svg/250px-Flag_of_Delaware.svg.png"
 	},
@@ -1393,7 +1393,7 @@
 	},
 	{
 		"type": "unitedStatesState",
-		"code": "GA",
+		"code": "GA_2",
 		"name": "Georgia",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_the_State_of_Georgia.svg/250px-Flag_of_the_State_of_Georgia.svg.png"
 	},
@@ -1405,19 +1405,19 @@
 	},
 	{
 		"type": "unitedStatesState",
-		"code": "ID",
+		"code": "ID_2",
 		"name": "Idaho",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_Idaho.svg/250px-Flag_of_Idaho.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
-		"code": "IL",
+		"code": "IL_2",
 		"name": "Illinois",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Illinois.svg/250px-Flag_of_Illinois.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
-		"code": "IN",
+		"code": "IN_2",
 		"name": "Indiana",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Flag_of_Indiana.svg/250px-Flag_of_Indiana.svg.png"
 	},
@@ -1441,25 +1441,25 @@
 	},
 	{
 		"type": "unitedStatesState",
-		"code": "LA",
+		"code": "LA_2",
 		"name": "Louisiana",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Flag_of_Louisiana.svg/250px-Flag_of_Louisiana.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
-		"code": "ME",
+		"code": "ME_2",
 		"name": "Maine",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Flag_of_the_State_of_Maine.svg/250px-Flag_of_the_State_of_Maine.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
-		"code": "MD",
+		"code": "MD_2",
 		"name": "Maryland",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_Maryland.svg/250px-Flag_of_Maryland.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
-		"code": "MA",
+		"code": "MA_2",
 		"name": "Massachusetts",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Massachusetts.svg/250px-Flag_of_Massachusetts.svg.png"
 	},
@@ -1471,7 +1471,7 @@
 	},
 	{
 		"type": "unitedStatesState",
-		"code": "MN",
+		"code": "MN_2",
 		"name": "Minnesota",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Flag_of_Minnesota.svg/250px-Flag_of_Minnesota.svg.png"
 	},
@@ -1489,13 +1489,13 @@
 	},
 	{
 		"type": "unitedStatesState",
-		"code": "MT",
+		"code": "MT_2",
 		"name": "Montana",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_Montana.svg/250px-Flag_of_Montana.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
-		"code": "NE",
+		"code": "NE_2",
 		"name": "Nebraska",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Flag_of_Nebraska.svg/250px-Flag_of_Nebraska.svg.png"
 	},
@@ -1561,13 +1561,13 @@
 	},
 	{
 		"type": "unitedStatesState",
-		"code": "OR",
+		"code": "OR_2",
 		"name": "Oregon (reverse)",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Flag_of_Oregon_%28reverse%29.svg/250px-Flag_of_Oregon_%28reverse%29.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
-		"code": "PA",
+		"code": "PA_2",
 		"name": "Pennsylvania",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Pennsylvania.svg/250px-Flag_of_Pennsylvania.svg.png"
 	},
@@ -1579,19 +1579,19 @@
 	},
 	{
 		"type": "unitedStatesState",
-		"code": "SC",
+		"code": "SC_2",
 		"name": "South Carolina",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Flag_of_South_Carolina.svg/250px-Flag_of_South_Carolina.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
-		"code": "SD",
+		"code": "SD_2",
 		"name": "South Dakota",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_South_Dakota.svg/250px-Flag_of_South_Dakota.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
-		"code": "TN",
+		"code": "TN_2",
 		"name": "Tennessee",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Tennessee.svg/250px-Flag_of_Tennessee.svg.png"
 	},
@@ -1615,7 +1615,7 @@
 	},
 	{
 		"type": "unitedStatesState",
-		"code": "VA",
+		"code": "VA_2",
 		"name": "Virginia",
 		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Flag_of_Virginia.svg/250px-Flag_of_Virginia.svg.png"
 	},
