@@ -1315,6 +1315,12 @@
 	},
 	{
 		"type": "country",
+		"code": "wiphala",
+		"name": "Wiphala (Andean Flag)",
+		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Banner_of_the_Qulla_Suyu_%281979%29.svg/500px-Banner_of_the_Qulla_Suyu_%281979%29.svg.png"
+	},
+	{
+		"type": "country",
 		"code": "EU",
 		"name": "Europe",
 		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/960px-Flag_of_Europe.svg.png"

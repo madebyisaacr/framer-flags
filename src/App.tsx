@@ -15,6 +15,7 @@ import { codeToFlag } from "./flags";
 import countryNames from "./data/countryNames.json";
 import countryCodes from "./data/countryCodes.json";
 import wikipediaFlags from "./data/wikipediaFlags.json";
+import circleFlags from "./data/circleFlags.json";
 
 const IS_CANVAS = framer.mode === "canvas";
 const IS_LOCALHOST =
@@ -35,6 +36,11 @@ type WikipediaCombinedFlag = {
 	code: string;
 	name: string;
 	imageURL: string;
+};
+
+type CircleFlagData = {
+	code: string;
+	name: string;
 };
 
 void framer.showUI({
@@ -91,6 +97,18 @@ function PaymentCardLogosApp() {
 			.filter(isWikipediaCombinedFlag)
 			.filter((f) => f.type === "unitedStatesState")
 			.sort((a, b) => a.name.localeCompare(b.name));
+	}, []);
+
+	const sortedCircleFlags = useMemo(() => {
+		const allCircleFlags = circleFlags as unknown as CircleFlagData[];
+		return allCircleFlags.slice().sort((a, b) => {
+			const aName = (a.name || "").trim();
+			const bName = (b.name || "").trim();
+			if (aName && bName) return aName.localeCompare(bName);
+			if (aName && !bName) return -1;
+			if (!aName && bName) return 1;
+			return a.code.localeCompare(b.code);
+		});
 	}, []);
 	const unitedStatesFlag = useMemo(() => {
 		const allWikipediaFlags = wikipediaFlags as unknown[];
@@ -152,6 +170,32 @@ function PaymentCardLogosApp() {
 			});
 	}, [iconSet, normalizedQuery, wikipediaFlagsForSelectedType]);
 
+	const filteredCircleFlags = useMemo(() => {
+		if (iconSet !== "circleFlags") return [];
+		if (!normalizedQuery) return sortedCircleFlags;
+
+		return sortedCircleFlags
+			.filter((flag) => {
+				const code = flag.code.toLowerCase();
+				const name = (flag.name || "").toLowerCase();
+				return code.includes(normalizedQuery) || name.includes(normalizedQuery);
+			})
+			.sort((a, b) => {
+				const aCode = a.code.toLowerCase();
+				const bCode = b.code.toLowerCase();
+				const aName = (a.name || "").toLowerCase();
+				const bName = (b.name || "").toLowerCase();
+
+				const aExact = Number(aCode === normalizedQuery || aName === normalizedQuery);
+				const bExact = Number(bCode === normalizedQuery || bName === normalizedQuery);
+				if (aExact !== bExact) return bExact - aExact;
+
+				const aSort = aName || aCode;
+				const bSort = bName || bCode;
+				return aSort.localeCompare(bSort);
+			});
+	}, [iconSet, normalizedQuery, sortedCircleFlags]);
+
 	return (
 		<main className="payment-card-logos">
 			<div className="toolbar">
@@ -183,17 +227,22 @@ function PaymentCardLogosApp() {
 				</select>
 			</div>
 			<div className={cx("grid", framer.mode === "canvas" ? "canvas" : "image")}>
-				{iconSet === "twemoji"
-					? filteredTwemojiCodes.map((code) => (
-							<TwemojiFlag key={code} code={code} isAllowedToEdit={isAllowedToEdit} />
-						))
-					: filteredWikipediaFlags.map((flag) => (
-							<WikipediaFlag
-								key={`${flag.code}-${flag.name}`}
-								flag={flag}
-								isAllowedToEdit={isAllowedToEdit}
-							/>
-						))}
+				{iconSet === "twemoji" &&
+					filteredTwemojiCodes.map((code) => (
+						<TwemojiFlag key={code} code={code} isAllowedToEdit={isAllowedToEdit} />
+					))}
+				{iconSet === "circleFlags" &&
+					filteredCircleFlags.map((flag) => (
+						<CircleFlag key={flag.code} flag={flag} isAllowedToEdit={isAllowedToEdit} />
+					))}
+				{(iconSet === "wikipediaCountries" || iconSet === "wikipediaUnitedStates") &&
+					filteredWikipediaFlags.map((flag) => (
+						<WikipediaFlag
+							key={`${flag.code}-${flag.name}`}
+							flag={flag}
+							isAllowedToEdit={isAllowedToEdit}
+						/>
+					))}
 			</div>
 		</main>
 	);
@@ -235,6 +284,41 @@ function TwemojiFlag({ code, isAllowedToEdit }: { code: string; isAllowedToEdit:
 	);
 }
 
+function CircleFlag({ flag, isAllowedToEdit }: { flag: CircleFlagData; isAllowedToEdit: boolean }) {
+	const name = (flag.name || "").trim() || flag.code;
+	const imageURL = circleFlagCodeToURL(flag.code);
+
+	const onClick = async () => {
+		if (!isAllowedToEdit) {
+			framer.notify("You don't have permission to edit.", { variant: "error" });
+			return;
+		}
+		await insertImageFrame(name, imageURL);
+	};
+
+	return (
+		<Draggable
+			key={flag.code}
+			data={{
+				type: "image",
+				image: imageURL,
+				previewImage: imageURL,
+				name,
+				altText: name,
+			}}
+		>
+			<img
+				src={imageURL}
+				alt={name}
+				title={name}
+				className="circle-flag"
+				draggable={false}
+				onClick={onClick}
+			/>
+		</Draggable>
+	);
+}
+
 type WikipediaFlagData = WikipediaCombinedFlag;
 
 function WikipediaFlag({
@@ -269,6 +353,11 @@ function WikipediaFlag({
 function emojiToURL(emoji: string): string {
 	const codepoint = [...emoji].map((char) => (char.codePointAt(0) ?? 0).toString(16)).join("-");
 	return `https://cdnjs.cloudflare.com/ajax/libs/twemoji/15.1.0/72x72/${codepoint}.png`;
+}
+
+function circleFlagCodeToURL(code: string): string {
+	// Circle flags are served from `/flags/{code}.svg` on hatscripts.
+	return `https://hatscripts.github.io/circle-flags/flags/${encodeURIComponent(code)}.svg`;
 }
 
 async function calculateParentId() {

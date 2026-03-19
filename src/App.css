@@ -131,3 +131,10 @@ main {
 	border-radius: inherit;
 	object-fit: contain;
 }
+
+.circle-flag {
+	width: 100%;
+	position: relative;
+	cursor: pointer;
+	aspect-ratio: 1 / 1;
+}
