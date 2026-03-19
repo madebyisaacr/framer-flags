@@ -3,1680 +3,1680 @@
 		"type": "country",
 		"code": "AF",
 		"name": "Afghanistan (Islamic Emirate)",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_the_Taliban.svg/250px-Flag_of_the_Taliban.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_the_Taliban.svg/250px-Flag_of_the_Taliban.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "AF",
 		"name": "Afghanistan (Islamic Republic)",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Flag_of_Afghanistan_%282013%E2%80%932021%29.svg/250px-Flag_of_Afghanistan_%282013%E2%80%932021%29.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Flag_of_Afghanistan_%282013%E2%80%932021%29.svg/250px-Flag_of_Afghanistan_%282013%E2%80%932021%29.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "AL",
 		"name": "Albania",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Flag_of_Albania.svg/250px-Flag_of_Albania.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Flag_of_Albania.svg/250px-Flag_of_Albania.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "DZ",
 		"name": "Algeria",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Algeria.svg/250px-Flag_of_Algeria.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Algeria.svg/250px-Flag_of_Algeria.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "AD",
 		"name": "Civil Flag of Andorra",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Flag_of_Andorra_%28civil%29.svg/250px-Flag_of_Andorra_%28civil%29.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Flag_of_Andorra_%28civil%29.svg/250px-Flag_of_Andorra_%28civil%29.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "AD",
 		"name": "State Flag of Andorra",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Andorra.svg/250px-Flag_of_Andorra.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Andorra.svg/250px-Flag_of_Andorra.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "AO",
 		"name": "Angola",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Angola.svg/250px-Flag_of_Angola.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Angola.svg/250px-Flag_of_Angola.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "AG",
 		"name": "Antigua and Barbuda",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_Antigua_and_Barbuda.svg/250px-Flag_of_Antigua_and_Barbuda.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_Antigua_and_Barbuda.svg/250px-Flag_of_Antigua_and_Barbuda.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "AR",
 		"name": "Civil Flag of Argentina",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Flag_of_Argentina_%28civil%29.svg/250px-Flag_of_Argentina_%28civil%29.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Flag_of_Argentina_%28civil%29.svg/250px-Flag_of_Argentina_%28civil%29.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "AR",
 		"name": "State Flag of Argentina",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/250px-Flag_of_Argentina.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/250px-Flag_of_Argentina.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "AM",
 		"name": "Armenia",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_Armenia.svg/250px-Flag_of_Armenia.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_Armenia.svg/250px-Flag_of_Armenia.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "AU",
 		"name": "Australia",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/250px-Flag_of_Australia_%28converted%29.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/250px-Flag_of_Australia_%28converted%29.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "AT",
 		"name": "Civil flag of Austria",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/250px-Flag_of_Austria.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/250px-Flag_of_Austria.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "AT",
 		"name": "State flag of Austria",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Austria_%28state%29.svg/250px-Flag_of_Austria_%28state%29.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Austria_%28state%29.svg/250px-Flag_of_Austria_%28state%29.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "AZ",
 		"name": "Azerbaijan",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/250px-Flag_of_Azerbaijan.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/250px-Flag_of_Azerbaijan.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "BS",
 		"name": "Bahamas",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Flag_of_the_Bahamas.svg/250px-Flag_of_the_Bahamas.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Flag_of_the_Bahamas.svg/250px-Flag_of_the_Bahamas.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "BH",
 		"name": "Bahrain",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Bahrain.svg/250px-Flag_of_Bahrain.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Bahrain.svg/250px-Flag_of_Bahrain.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "BD",
 		"name": "Bangladesh",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/250px-Flag_of_Bangladesh.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/250px-Flag_of_Bangladesh.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "BB",
 		"name": "Barbados",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Flag_of_Barbados.svg/250px-Flag_of_Barbados.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Flag_of_Barbados.svg/250px-Flag_of_Barbados.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "BY",
 		"name": "Belarus",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Flag_of_Belarus.svg/250px-Flag_of_Belarus.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Flag_of_Belarus.svg/250px-Flag_of_Belarus.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "BE",
 		"name": "Belgium",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/250px-Flag_of_Belgium.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/250px-Flag_of_Belgium.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "BZ",
 		"name": "Belize",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Flag_of_Belize.svg/250px-Flag_of_Belize.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Flag_of_Belize.svg/250px-Flag_of_Belize.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "BJ",
 		"name": "Benin",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Benin.svg/250px-Flag_of_Benin.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Benin.svg/250px-Flag_of_Benin.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "BT",
 		"name": "Bhutan",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Flag_of_Bhutan.svg/250px-Flag_of_Bhutan.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Flag_of_Bhutan.svg/250px-Flag_of_Bhutan.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "BO",
 		"name": "Civil flag of Bolivia",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/250px-Flag_of_Bolivia.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/250px-Flag_of_Bolivia.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "BO",
 		"name": "State flag of Bolivia",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Bandera_de_Bolivia_%28Estado%29.svg/250px-Bandera_de_Bolivia_%28Estado%29.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Bandera_de_Bolivia_%28Estado%29.svg/250px-Bandera_de_Bolivia_%28Estado%29.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "BA",
 		"name": "Bosnia and Herzegovina",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Bosnia_and_Herzegovina.svg/250px-Flag_of_Bosnia_and_Herzegovina.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Bosnia_and_Herzegovina.svg/250px-Flag_of_Bosnia_and_Herzegovina.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "BW",
 		"name": "Botswana",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_Botswana.svg/250px-Flag_of_Botswana.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_Botswana.svg/250px-Flag_of_Botswana.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "BR",
 		"name": "Brazil",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/250px-Flag_of_Brazil.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/250px-Flag_of_Brazil.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "BN",
 		"name": "Brunei",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Brunei.svg/250px-Flag_of_Brunei.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Brunei.svg/250px-Flag_of_Brunei.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "BG",
 		"name": "Bulgaria",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/250px-Flag_of_Bulgaria.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/250px-Flag_of_Bulgaria.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "BF",
 		"name": "Burkina Faso",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Burkina_Faso.svg/250px-Flag_of_Burkina_Faso.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Burkina_Faso.svg/250px-Flag_of_Burkina_Faso.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "BI",
 		"name": "Burundi",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Flag_of_Burundi.svg/250px-Flag_of_Burundi.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Flag_of_Burundi.svg/250px-Flag_of_Burundi.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "KH",
 		"name": "Cambodia",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_Cambodia.svg/250px-Flag_of_Cambodia.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_Cambodia.svg/250px-Flag_of_Cambodia.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "CM",
 		"name": "Cameroon",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Flag_of_Cameroon.svg/250px-Flag_of_Cameroon.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Flag_of_Cameroon.svg/250px-Flag_of_Cameroon.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "CA",
 		"name": "Canada",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/250px-Flag_of_Canada_%28Pantone%29.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/250px-Flag_of_Canada_%28Pantone%29.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "CV",
 		"name": "Cape Verde",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Cape_Verde.svg/250px-Flag_of_Cape_Verde.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Cape_Verde.svg/250px-Flag_of_Cape_Verde.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "CF",
 		"name": "Central African Republic",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Central_African_Republic.svg/250px-Flag_of_the_Central_African_Republic.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Central_African_Republic.svg/250px-Flag_of_the_Central_African_Republic.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "TD",
 		"name": "Chad",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Flag_of_Chad.svg/250px-Flag_of_Chad.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Flag_of_Chad.svg/250px-Flag_of_Chad.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "CL",
 		"name": "Chile",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Flag_of_Chile.svg/250px-Flag_of_Chile.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Flag_of_Chile.svg/250px-Flag_of_Chile.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "CN",
 		"name": "China",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/250px-Flag_of_the_People%27s_Republic_of_China.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/250px-Flag_of_the_People%27s_Republic_of_China.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "CO",
 		"name": "Colombia",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/250px-Flag_of_Colombia.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/250px-Flag_of_Colombia.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "KM",
 		"name": "Comoros",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Flag_of_the_Comoros.svg/250px-Flag_of_the_Comoros.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Flag_of_the_Comoros.svg/250px-Flag_of_the_Comoros.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "CD",
 		"name": "Democratic Republic of the Congo",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg/250px-Flag_of_the_Democratic_Republic_of_the_Congo.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg/250px-Flag_of_the_Democratic_Republic_of_the_Congo.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "CG",
 		"name": "Republic of the Congo",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_the_Republic_of_the_Congo.svg/250px-Flag_of_the_Republic_of_the_Congo.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_the_Republic_of_the_Congo.svg/250px-Flag_of_the_Republic_of_the_Congo.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "CR",
 		"name": "National flag of Costa Rica",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Costa_Rica.svg/250px-Flag_of_Costa_Rica.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Costa_Rica.svg/250px-Flag_of_Costa_Rica.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "CR",
 		"name": "State flag of Costa Rica",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Costa_Rica_%28state%29.svg/250px-Flag_of_Costa_Rica_%28state%29.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Costa_Rica_%28state%29.svg/250px-Flag_of_Costa_Rica_%28state%29.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "HR",
 		"name": "Croatia",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/250px-Flag_of_Croatia.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/250px-Flag_of_Croatia.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "CU",
 		"name": "Cuba",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Flag_of_Cuba.svg/250px-Flag_of_Cuba.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Flag_of_Cuba.svg/250px-Flag_of_Cuba.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "CY",
 		"name": "Cyprus",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Cyprus.svg/250px-Flag_of_Cyprus.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Cyprus.svg/250px-Flag_of_Cyprus.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "CZ",
 		"name": "Czech Republic",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/250px-Flag_of_the_Czech_Republic.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/250px-Flag_of_the_Czech_Republic.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "DK",
 		"name": "Civil flag of Denmark",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/250px-Flag_of_Denmark.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/250px-Flag_of_Denmark.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "DK",
 		"name": "State flag of Denmark",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Denmark_%28state%29.svg/250px-Flag_of_Denmark_%28state%29.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Denmark_%28state%29.svg/250px-Flag_of_Denmark_%28state%29.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "DJ",
 		"name": "Djibouti",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_Djibouti.svg/250px-Flag_of_Djibouti.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_Djibouti.svg/250px-Flag_of_Djibouti.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "DM",
 		"name": "Dominica",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Flag_of_Dominica.svg/250px-Flag_of_Dominica.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Flag_of_Dominica.svg/250px-Flag_of_Dominica.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "DO",
 		"name": "Civil flag of the Dominican Republic",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Civil_Ensign_of_the_Dominican_Republic.svg/250px-Civil_Ensign_of_the_Dominican_Republic.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Civil_Ensign_of_the_Dominican_Republic.svg/250px-Civil_Ensign_of_the_Dominican_Republic.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "DO",
 		"name": "State flag of the Dominican Republic",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_the_Dominican_Republic.svg/250px-Flag_of_the_Dominican_Republic.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_the_Dominican_Republic.svg/250px-Flag_of_the_Dominican_Republic.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "EC",
 		"name": "Ecuador",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/250px-Flag_of_Ecuador.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/250px-Flag_of_Ecuador.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "EG",
 		"name": "Egypt",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/250px-Flag_of_Egypt.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/250px-Flag_of_Egypt.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "SV",
 		"name": "Civil flag of El Salvador",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Civil_Ensign_of_El_Salvador.svg/250px-Civil_Ensign_of_El_Salvador.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Civil_Ensign_of_El_Salvador.svg/250px-Civil_Ensign_of_El_Salvador.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "SV",
 		"name": "State flag of El Salvador",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_El_Salvador.svg/250px-Flag_of_El_Salvador.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_El_Salvador.svg/250px-Flag_of_El_Salvador.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "GQ",
 		"name": "Equatorial Guinea",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Equatorial_Guinea.svg/250px-Flag_of_Equatorial_Guinea.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Equatorial_Guinea.svg/250px-Flag_of_Equatorial_Guinea.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "ER",
 		"name": "Eritrea",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Flag_of_Eritrea.svg/250px-Flag_of_Eritrea.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Flag_of_Eritrea.svg/250px-Flag_of_Eritrea.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "EE",
 		"name": "Estonia",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Flag_of_Estonia.svg/250px-Flag_of_Estonia.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Flag_of_Estonia.svg/250px-Flag_of_Estonia.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "SZ",
 		"name": "Eswatini",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Flag_of_Eswatini.svg/250px-Flag_of_Eswatini.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Flag_of_Eswatini.svg/250px-Flag_of_Eswatini.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "ET",
 		"name": "Ethiopia",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Flag_of_Ethiopia.svg/250px-Flag_of_Ethiopia.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Flag_of_Ethiopia.svg/250px-Flag_of_Ethiopia.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "FJ",
 		"name": "Fiji",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Fiji.svg/250px-Flag_of_Fiji.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Fiji.svg/250px-Flag_of_Fiji.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "FI",
 		"name": "Civil flag of Finland",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Finland.svg/250px-Flag_of_Finland.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Finland.svg/250px-Flag_of_Finland.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "FI",
 		"name": "State flag of Finland",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Finland_%28state%29.svg/250px-Flag_of_Finland_%28state%29.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Finland_%28state%29.svg/250px-Flag_of_Finland_%28state%29.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "FR",
 		"name": "France",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/250px-Flag_of_France.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/250px-Flag_of_France.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "GA",
 		"name": "Gabon",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Flag_of_Gabon.svg/250px-Flag_of_Gabon.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Flag_of_Gabon.svg/250px-Flag_of_Gabon.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "GM",
 		"name": "Gambia",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_The_Gambia.svg/250px-Flag_of_The_Gambia.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_The_Gambia.svg/250px-Flag_of_The_Gambia.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "GE",
 		"name": "Georgia",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/250px-Flag_of_Georgia.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/250px-Flag_of_Georgia.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "DE",
 		"name": "Civil flag of Germany",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/250px-Flag_of_Germany.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/250px-Flag_of_Germany.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "DE",
 		"name": "State flag of Germany",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Flag_of_Germany_%28state%29.svg/250px-Flag_of_Germany_%28state%29.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Flag_of_Germany_%28state%29.svg/250px-Flag_of_Germany_%28state%29.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "GH",
 		"name": "Ghana",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Ghana.svg/250px-Flag_of_Ghana.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Ghana.svg/250px-Flag_of_Ghana.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "GR",
 		"name": "Greece",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/250px-Flag_of_Greece.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/250px-Flag_of_Greece.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "GD",
 		"name": "Grenada",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Grenada.svg/250px-Flag_of_Grenada.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Grenada.svg/250px-Flag_of_Grenada.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "GT",
 		"name": "Civil flag of Guatemala",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Civil_ensign_of_Guatemala.svg/250px-Civil_ensign_of_Guatemala.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Civil_ensign_of_Guatemala.svg/250px-Civil_ensign_of_Guatemala.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "GT",
 		"name": "State flag of Guatemala",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Flag_of_Guatemala.svg/250px-Flag_of_Guatemala.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Flag_of_Guatemala.svg/250px-Flag_of_Guatemala.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "GN",
 		"name": "Guinea",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Flag_of_Guinea.svg/250px-Flag_of_Guinea.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Flag_of_Guinea.svg/250px-Flag_of_Guinea.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "GW",
 		"name": "Guinea-Bissau",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Guinea-Bissau.svg/250px-Flag_of_Guinea-Bissau.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Guinea-Bissau.svg/250px-Flag_of_Guinea-Bissau.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "GY",
 		"name": "Guyana",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_Guyana.svg/250px-Flag_of_Guyana.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_Guyana.svg/250px-Flag_of_Guyana.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "HT",
 		"name": "Civil flag of Haiti",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Flag_of_Haiti_%28civil%29.svg/250px-Flag_of_Haiti_%28civil%29.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Flag_of_Haiti_%28civil%29.svg/250px-Flag_of_Haiti_%28civil%29.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "HT",
 		"name": "State flag of Haiti",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Haiti.svg/250px-Flag_of_Haiti.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Haiti.svg/250px-Flag_of_Haiti.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "HN",
 		"name": "Honduras",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Honduras_%281949%E2%80%932022%2C_2026%E2%80%93present%29.svg/250px-Flag_of_Honduras_%281949%E2%80%932022%2C_2026%E2%80%93present%29.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Honduras_%281949%E2%80%932022%2C_2026%E2%80%93present%29.svg/250px-Flag_of_Honduras_%281949%E2%80%932022%2C_2026%E2%80%93present%29.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "HU",
 		"name": "Hungary",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/250px-Flag_of_Hungary.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/250px-Flag_of_Hungary.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "IS",
 		"name": "Civil flag of Iceland",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Iceland.svg/250px-Flag_of_Iceland.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Iceland.svg/250px-Flag_of_Iceland.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "IS",
 		"name": "State flag of Iceland",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_Iceland_%28state%29.svg/250px-Flag_of_Iceland_%28state%29.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_Iceland_%28state%29.svg/250px-Flag_of_Iceland_%28state%29.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "IN",
 		"name": "India",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/250px-Flag_of_India.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/250px-Flag_of_India.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "ID",
 		"name": "Indonesia",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/250px-Flag_of_Indonesia.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/250px-Flag_of_Indonesia.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "IR",
 		"name": "Iran",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_Iran_%28official%29.svg/250px-Flag_of_Iran_%28official%29.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_Iran_%28official%29.svg/250px-Flag_of_Iran_%28official%29.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "IQ",
 		"name": "Iraq",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Iraq.svg/250px-Flag_of_Iraq.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Iraq.svg/250px-Flag_of_Iraq.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "IE",
 		"name": "Ireland",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Flag_of_Ireland.svg/250px-Flag_of_Ireland.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Flag_of_Ireland.svg/250px-Flag_of_Ireland.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "IL",
 		"name": "Israel",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/250px-Flag_of_Israel.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/250px-Flag_of_Israel.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "IT",
 		"name": "Italy",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/250px-Flag_of_Italy.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/250px-Flag_of_Italy.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "CI",
 		"name": "Ivory Coast",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg/250px-Flag_of_C%C3%B4te_d%27Ivoire.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg/250px-Flag_of_C%C3%B4te_d%27Ivoire.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "JM",
 		"name": "Jamaica",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Jamaica.svg/250px-Flag_of_Jamaica.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Jamaica.svg/250px-Flag_of_Jamaica.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "JP",
 		"name": "Japan",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/250px-Flag_of_Japan.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/250px-Flag_of_Japan.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "JO",
 		"name": "Jordan",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Flag_of_Jordan.svg/250px-Flag_of_Jordan.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Flag_of_Jordan.svg/250px-Flag_of_Jordan.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "KZ",
 		"name": "Kazakhstan",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kazakhstan.svg/250px-Flag_of_Kazakhstan.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kazakhstan.svg/250px-Flag_of_Kazakhstan.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "KE",
 		"name": "Kenya",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Kenya.svg/250px-Flag_of_Kenya.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Kenya.svg/250px-Flag_of_Kenya.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "KI",
 		"name": "Kiribati",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kiribati.svg/250px-Flag_of_Kiribati.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kiribati.svg/250px-Flag_of_Kiribati.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "KW",
 		"name": "Kuwait",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Flag_of_Kuwait.svg/250px-Flag_of_Kuwait.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Flag_of_Kuwait.svg/250px-Flag_of_Kuwait.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "KG",
 		"name": "Kyrgyzstan",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_Kyrgyzstan.svg/250px-Flag_of_Kyrgyzstan.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_Kyrgyzstan.svg/250px-Flag_of_Kyrgyzstan.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "LA",
 		"name": "Laos",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Laos.svg/250px-Flag_of_Laos.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Laos.svg/250px-Flag_of_Laos.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "LV",
 		"name": "Latvia",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Latvia.svg/250px-Flag_of_Latvia.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Latvia.svg/250px-Flag_of_Latvia.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "LB",
 		"name": "Lebanon",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Lebanon.svg/250px-Flag_of_Lebanon.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Lebanon.svg/250px-Flag_of_Lebanon.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "LS",
 		"name": "Lesotho",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Flag_of_Lesotho.svg/250px-Flag_of_Lesotho.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Flag_of_Lesotho.svg/250px-Flag_of_Lesotho.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "LR",
 		"name": "Liberia",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Flag_of_Liberia.svg/250px-Flag_of_Liberia.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Flag_of_Liberia.svg/250px-Flag_of_Liberia.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "LY",
 		"name": "Libya",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Libya.svg/250px-Flag_of_Libya.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Libya.svg/250px-Flag_of_Libya.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "LI",
 		"name": "Liechtenstein",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Flag_of_Liechtenstein.svg/250px-Flag_of_Liechtenstein.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Flag_of_Liechtenstein.svg/250px-Flag_of_Liechtenstein.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "LT",
 		"name": "Lithuania",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Lithuania.svg/250px-Flag_of_Lithuania.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Lithuania.svg/250px-Flag_of_Lithuania.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "LU",
 		"name": "Luxembourg",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Flag_of_Luxembourg.svg/250px-Flag_of_Luxembourg.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Flag_of_Luxembourg.svg/250px-Flag_of_Luxembourg.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "MG",
 		"name": "Madagascar",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Madagascar.svg/250px-Flag_of_Madagascar.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Madagascar.svg/250px-Flag_of_Madagascar.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "MW",
 		"name": "Malawi",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Flag_of_Malawi.svg/250px-Flag_of_Malawi.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Flag_of_Malawi.svg/250px-Flag_of_Malawi.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "MY",
 		"name": "Malaysia",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Flag_of_Malaysia.svg/250px-Flag_of_Malaysia.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Flag_of_Malaysia.svg/250px-Flag_of_Malaysia.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "MV",
 		"name": "Maldives",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Maldives.svg/250px-Flag_of_Maldives.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Maldives.svg/250px-Flag_of_Maldives.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "ML",
 		"name": "Mali",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Mali.svg/250px-Flag_of_Mali.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Mali.svg/250px-Flag_of_Mali.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "MT",
 		"name": "Malta",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Malta.svg/250px-Flag_of_Malta.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Malta.svg/250px-Flag_of_Malta.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "MH",
 		"name": "Marshall Islands",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flag_of_the_Marshall_Islands.svg/250px-Flag_of_the_Marshall_Islands.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flag_of_the_Marshall_Islands.svg/250px-Flag_of_the_Marshall_Islands.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "MR",
 		"name": "Mauritania",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Flag_of_Mauritania.svg/250px-Flag_of_Mauritania.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Flag_of_Mauritania.svg/250px-Flag_of_Mauritania.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "MU",
 		"name": "Mauritius",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Mauritius.svg/250px-Flag_of_Mauritius.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Mauritius.svg/250px-Flag_of_Mauritius.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "MX",
 		"name": "Mexico",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/250px-Flag_of_Mexico.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/250px-Flag_of_Mexico.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "FM",
 		"name": "Micronesia",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Flag_of_the_Federated_States_of_Micronesia.svg/250px-Flag_of_the_Federated_States_of_Micronesia.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Flag_of_the_Federated_States_of_Micronesia.svg/250px-Flag_of_the_Federated_States_of_Micronesia.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "MD",
 		"name": "Moldova",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Moldova.svg/250px-Flag_of_Moldova.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Moldova.svg/250px-Flag_of_Moldova.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "MC",
 		"name": "Monaco",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Flag_of_Monaco.svg/250px-Flag_of_Monaco.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Flag_of_Monaco.svg/250px-Flag_of_Monaco.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "MN",
 		"name": "Mongolia",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Mongolia.svg/250px-Flag_of_Mongolia.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Mongolia.svg/250px-Flag_of_Mongolia.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "ME",
 		"name": "Montenegro",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Montenegro.svg/250px-Flag_of_Montenegro.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Montenegro.svg/250px-Flag_of_Montenegro.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "MA",
 		"name": "Morocco",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/250px-Flag_of_Morocco.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/250px-Flag_of_Morocco.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "MZ",
 		"name": "Mozambique",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Mozambique.svg/250px-Flag_of_Mozambique.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Mozambique.svg/250px-Flag_of_Mozambique.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "MM",
 		"name": "Myanmar",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Flag_of_Myanmar.svg/250px-Flag_of_Myanmar.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Flag_of_Myanmar.svg/250px-Flag_of_Myanmar.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "NA",
 		"name": "Namibia",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Namibia.svg/250px-Flag_of_Namibia.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Namibia.svg/250px-Flag_of_Namibia.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "NR",
 		"name": "Nauru",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Flag_of_Nauru.svg/250px-Flag_of_Nauru.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Flag_of_Nauru.svg/250px-Flag_of_Nauru.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "NP",
 		"name": "Nepal",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Flag_of_Nepal.svg/250px-Flag_of_Nepal.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Flag_of_Nepal.svg/250px-Flag_of_Nepal.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "NL",
 		"name": "Netherlands",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/250px-Flag_of_the_Netherlands.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/250px-Flag_of_the_Netherlands.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "NZ",
 		"name": "New Zealand",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_New_Zealand.svg/250px-Flag_of_New_Zealand.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_New_Zealand.svg/250px-Flag_of_New_Zealand.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "NI",
 		"name": "Nicaragua",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Nicaragua.svg/250px-Flag_of_Nicaragua.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Nicaragua.svg/250px-Flag_of_Nicaragua.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "NE",
 		"name": "Niger",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Flag_of_Niger.svg/250px-Flag_of_Niger.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Flag_of_Niger.svg/250px-Flag_of_Niger.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "NG",
 		"name": "Nigeria",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/250px-Flag_of_Nigeria.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/250px-Flag_of_Nigeria.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "KP",
 		"name": "North Korea",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Flag_of_North_Korea.svg/250px-Flag_of_North_Korea.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Flag_of_North_Korea.svg/250px-Flag_of_North_Korea.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "MK",
 		"name": "North Macedonia",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_North_Macedonia.svg/250px-Flag_of_North_Macedonia.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_North_Macedonia.svg/250px-Flag_of_North_Macedonia.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "NO",
 		"name": "National flag of Norway",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/250px-Flag_of_Norway.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/250px-Flag_of_Norway.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "NO",
 		"name": "State flag of Norway",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Flag_of_Norway%2C_state.svg/250px-Flag_of_Norway%2C_state.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Flag_of_Norway%2C_state.svg/250px-Flag_of_Norway%2C_state.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "OM",
 		"name": "Oman",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Oman.svg/250px-Flag_of_Oman.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Oman.svg/250px-Flag_of_Oman.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "PK",
 		"name": "Pakistan",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/250px-Flag_of_Pakistan.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/250px-Flag_of_Pakistan.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "PW",
 		"name": "Palau",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Palau.svg/250px-Flag_of_Palau.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Palau.svg/250px-Flag_of_Palau.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "PS",
 		"name": "Palestine",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Palestine.svg/250px-Flag_of_Palestine.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Palestine.svg/250px-Flag_of_Palestine.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "PA",
 		"name": "Panama",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/250px-Flag_of_Panama.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/250px-Flag_of_Panama.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "PG",
 		"name": "Papua New Guinea",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Flag_of_Papua_New_Guinea.svg/250px-Flag_of_Papua_New_Guinea.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Flag_of_Papua_New_Guinea.svg/250px-Flag_of_Papua_New_Guinea.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "PY",
 		"name": "Paraguay",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/250px-Flag_of_Paraguay.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/250px-Flag_of_Paraguay.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "PY",
 		"name": "Paraguay (reverse)",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Flag_of_Paraguay_%28reverse%29.svg/250px-Flag_of_Paraguay_%28reverse%29.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Flag_of_Paraguay_%28reverse%29.svg/250px-Flag_of_Paraguay_%28reverse%29.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "PE",
 		"name": "Civil flag of Peru",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Peru.svg/250px-Flag_of_Peru.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Peru.svg/250px-Flag_of_Peru.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "PE",
 		"name": "State flag of Peru",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Flag_of_Peru_%28state%29.svg/250px-Flag_of_Peru_%28state%29.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Flag_of_Peru_%28state%29.svg/250px-Flag_of_Peru_%28state%29.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "PH",
 		"name": "Philippines",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/250px-Flag_of_the_Philippines.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/250px-Flag_of_the_Philippines.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "PL",
 		"name": "National flag of Poland",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/250px-Flag_of_Poland.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/250px-Flag_of_Poland.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "PL",
 		"name": "State and Civil flag of Poland",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Flag_of_Poland_%28with_coat_of_arms%29.svg/250px-Flag_of_Poland_%28with_coat_of_arms%29.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Flag_of_Poland_%28with_coat_of_arms%29.svg/250px-Flag_of_Poland_%28with_coat_of_arms%29.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "PT",
 		"name": "Portugal",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Flag_of_Portugal_%28official%29.svg/250px-Flag_of_Portugal_%28official%29.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Flag_of_Portugal_%28official%29.svg/250px-Flag_of_Portugal_%28official%29.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "QA",
 		"name": "Qatar",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Qatar.svg/250px-Flag_of_Qatar.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Qatar.svg/250px-Flag_of_Qatar.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "RO",
 		"name": "Romania",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/250px-Flag_of_Romania.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/250px-Flag_of_Romania.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "RU",
 		"name": "Russia",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/250px-Flag_of_Russia.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/250px-Flag_of_Russia.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "RW",
 		"name": "Rwanda",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flag_of_Rwanda.svg/250px-Flag_of_Rwanda.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flag_of_Rwanda.svg/250px-Flag_of_Rwanda.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "KN",
 		"name": "Saint Kitts and Nevis",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Saint_Kitts_and_Nevis.svg/250px-Flag_of_Saint_Kitts_and_Nevis.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Saint_Kitts_and_Nevis.svg/250px-Flag_of_Saint_Kitts_and_Nevis.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "LC",
 		"name": "Saint Lucia",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Saint_Lucia.svg/250px-Flag_of_Saint_Lucia.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Saint_Lucia.svg/250px-Flag_of_Saint_Lucia.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "VC",
 		"name": "Saint Vincent and the Grenadines",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Flag_of_Saint_Vincent_and_the_Grenadines.svg/250px-Flag_of_Saint_Vincent_and_the_Grenadines.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Flag_of_Saint_Vincent_and_the_Grenadines.svg/250px-Flag_of_Saint_Vincent_and_the_Grenadines.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "WS",
 		"name": "Samoa",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Samoa.svg/250px-Flag_of_Samoa.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Samoa.svg/250px-Flag_of_Samoa.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "SM",
 		"name": "San Marino",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Flag_of_San_Marino.svg/250px-Flag_of_San_Marino.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Flag_of_San_Marino.svg/250px-Flag_of_San_Marino.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "ST",
 		"name": "São Tomé and Príncipe",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe.svg/250px-Flag_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe.svg/250px-Flag_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "SA",
 		"name": "Saudi Arabia",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/250px-Flag_of_Saudi_Arabia.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/250px-Flag_of_Saudi_Arabia.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "SN",
 		"name": "Senegal",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/250px-Flag_of_Senegal.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/250px-Flag_of_Senegal.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "RS",
 		"name": "Civil flag of Serbia",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Civil_flag_of_Serbia.svg/250px-Civil_flag_of_Serbia.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Civil_flag_of_Serbia.svg/250px-Civil_flag_of_Serbia.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "RS",
 		"name": "State flag of Serbia",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/250px-Flag_of_Serbia.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/250px-Flag_of_Serbia.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "SC",
 		"name": "Seychelles",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Seychelles.svg/250px-Flag_of_Seychelles.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Seychelles.svg/250px-Flag_of_Seychelles.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "SL",
 		"name": "Sierra Leone",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flag_of_Sierra_Leone.svg/250px-Flag_of_Sierra_Leone.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flag_of_Sierra_Leone.svg/250px-Flag_of_Sierra_Leone.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "SG",
 		"name": "Singapore",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Singapore.svg/250px-Flag_of_Singapore.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Singapore.svg/250px-Flag_of_Singapore.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "SK",
 		"name": "Slovakia",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Slovakia.svg/250px-Flag_of_Slovakia.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Slovakia.svg/250px-Flag_of_Slovakia.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "SI",
 		"name": "Slovenia",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Flag_of_Slovenia.svg/250px-Flag_of_Slovenia.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Flag_of_Slovenia.svg/250px-Flag_of_Slovenia.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "SB",
 		"name": "Solomon Islands",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Flag_of_the_Solomon_Islands.svg/250px-Flag_of_the_Solomon_Islands.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Flag_of_the_Solomon_Islands.svg/250px-Flag_of_the_Solomon_Islands.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "SO",
 		"name": "Somalia",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_Somalia.svg/250px-Flag_of_Somalia.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_Somalia.svg/250px-Flag_of_Somalia.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "ZA",
 		"name": "South Africa",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/250px-Flag_of_South_Africa.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/250px-Flag_of_South_Africa.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "KR",
 		"name": "South Korea",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/250px-Flag_of_South_Korea.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/250px-Flag_of_South_Korea.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "SS",
 		"name": "South Sudan",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Flag_of_South_Sudan.svg/250px-Flag_of_South_Sudan.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Flag_of_South_Sudan.svg/250px-Flag_of_South_Sudan.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "ES",
 		"name": "Civil flag of Spain",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Flag_of_Spain_%28civil%29.svg/250px-Flag_of_Spain_%28civil%29.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Flag_of_Spain_%28civil%29.svg/250px-Flag_of_Spain_%28civil%29.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "ES",
 		"name": "National flag of Spain",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/250px-Flag_of_Spain.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/250px-Flag_of_Spain.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "LK",
 		"name": "Sri Lanka",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Sri_Lanka.svg/250px-Flag_of_Sri_Lanka.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Sri_Lanka.svg/250px-Flag_of_Sri_Lanka.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "SD",
 		"name": "Sudan",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Sudan.svg/250px-Flag_of_Sudan.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Sudan.svg/250px-Flag_of_Sudan.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "SR",
 		"name": "Suriname",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Flag_of_Suriname.svg/250px-Flag_of_Suriname.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Flag_of_Suriname.svg/250px-Flag_of_Suriname.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "SE",
 		"name": "Sweden",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Flag_of_Sweden.svg/250px-Flag_of_Sweden.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Flag_of_Sweden.svg/250px-Flag_of_Sweden.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "CH",
 		"name": "Switzerland",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_Switzerland_%28Pantone%29.svg/250px-Flag_of_Switzerland_%28Pantone%29.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_Switzerland_%28Pantone%29.svg/250px-Flag_of_Switzerland_%28Pantone%29.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "SY",
 		"name": "Syria",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Flag_of_Syria_%282025-%29.svg/250px-Flag_of_Syria_%282025-%29.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Flag_of_Syria_%282025-%29.svg/250px-Flag_of_Syria_%282025-%29.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "TJ",
 		"name": "Tajikistan",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Tajikistan.svg/250px-Flag_of_Tajikistan.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Tajikistan.svg/250px-Flag_of_Tajikistan.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "TZ",
 		"name": "Tanzania",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tanzania.svg/250px-Flag_of_Tanzania.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tanzania.svg/250px-Flag_of_Tanzania.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "TH",
 		"name": "Thailand",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/250px-Flag_of_Thailand.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/250px-Flag_of_Thailand.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "TL",
 		"name": "Timor-Leste",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Flag_of_East_Timor.svg/250px-Flag_of_East_Timor.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Flag_of_East_Timor.svg/250px-Flag_of_East_Timor.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "TG",
 		"name": "Togo",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Flag_of_Togo.svg/250px-Flag_of_Togo.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Flag_of_Togo.svg/250px-Flag_of_Togo.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "TO",
 		"name": "Tonga",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Tonga.svg/250px-Flag_of_Tonga.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Tonga.svg/250px-Flag_of_Tonga.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "TT",
 		"name": "Trinidad and Tobago",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Trinidad_and_Tobago.svg/250px-Flag_of_Trinidad_and_Tobago.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Trinidad_and_Tobago.svg/250px-Flag_of_Trinidad_and_Tobago.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "TN",
 		"name": "Tunisia",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/250px-Flag_of_Tunisia.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/250px-Flag_of_Tunisia.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "TR",
 		"name": "Turkey",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/250px-Flag_of_Turkey.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/250px-Flag_of_Turkey.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "TM",
 		"name": "Turkmenistan",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Turkmenistan.svg/250px-Flag_of_Turkmenistan.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Turkmenistan.svg/250px-Flag_of_Turkmenistan.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "TV",
 		"name": "Tuvalu",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tuvalu.svg/250px-Flag_of_Tuvalu.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tuvalu.svg/250px-Flag_of_Tuvalu.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "UG",
 		"name": "Uganda",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Flag_of_Uganda.svg/250px-Flag_of_Uganda.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Flag_of_Uganda.svg/250px-Flag_of_Uganda.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "UA",
 		"name": "Ukraine",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/250px-Flag_of_Ukraine.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/250px-Flag_of_Ukraine.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "AE",
 		"name": "United Arab Emirates",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_United_Arab_Emirates.svg/250px-Flag_of_the_United_Arab_Emirates.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_United_Arab_Emirates.svg/250px-Flag_of_the_United_Arab_Emirates.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "GB",
 		"name": "United Kingdom",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/250px-Flag_of_the_United_Kingdom.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/250px-Flag_of_the_United_Kingdom.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "US",
 		"name": "United States",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/250px-Flag_of_the_United_States.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/250px-Flag_of_the_United_States.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "UY",
 		"name": "National Pavilion",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/250px-Flag_of_Uruguay.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/250px-Flag_of_Uruguay.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "UY",
 		"name": "Artigas",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Flag_of_Artigas.svg/250px-Flag_of_Artigas.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Flag_of_Artigas.svg/250px-Flag_of_Artigas.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "UY",
 		"name": "Treinta y Tres",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_the_Treinta_y_Tres.svg/250px-Flag_of_the_Treinta_y_Tres.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_the_Treinta_y_Tres.svg/250px-Flag_of_the_Treinta_y_Tres.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "UZ",
 		"name": "Uzbekistan",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Uzbekistan.svg/250px-Flag_of_Uzbekistan.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Uzbekistan.svg/250px-Flag_of_Uzbekistan.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "VU",
 		"name": "Vanuatu",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Vanuatu.svg/250px-Flag_of_Vanuatu.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Vanuatu.svg/250px-Flag_of_Vanuatu.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "VA",
 		"name": "Vatican City",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Flag_of_Vatican_City_%282023%E2%80%93present%29.svg/250px-Flag_of_Vatican_City_%282023%E2%80%93present%29.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Flag_of_Vatican_City_%282023%E2%80%93present%29.svg/250px-Flag_of_Vatican_City_%282023%E2%80%93present%29.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "VE",
 		"name": "Civil flag of Venezuela",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Venezuela.svg/250px-Flag_of_Venezuela.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Venezuela.svg/250px-Flag_of_Venezuela.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "VE",
 		"name": "State flag of Venezuela",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Flag_of_Venezuela_%28state%29.svg/250px-Flag_of_Venezuela_%28state%29.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Flag_of_Venezuela_%28state%29.svg/250px-Flag_of_Venezuela_%28state%29.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "VN",
 		"name": "Vietnam",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/250px-Flag_of_Vietnam.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/250px-Flag_of_Vietnam.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "YE",
 		"name": "Yemen",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_Yemen.svg/250px-Flag_of_Yemen.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_Yemen.svg/250px-Flag_of_Yemen.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "ZM",
 		"name": "Zambia",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Zambia.svg/250px-Flag_of_Zambia.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Zambia.svg/250px-Flag_of_Zambia.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "ZW",
 		"name": "Zimbabwe",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Flag_of_Zimbabwe.svg/250px-Flag_of_Zimbabwe.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Flag_of_Zimbabwe.svg/250px-Flag_of_Zimbabwe.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "TW",
 		"name": "Taiwan",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Flag_of_the_Republic_of_China.svg/250px-Flag_of_the_Republic_of_China.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Flag_of_the_Republic_of_China.svg/250px-Flag_of_the_Republic_of_China.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "wiphala",
 		"name": "Wiphala (Andean Flag)",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Banner_of_the_Qulla_Suyu_%281979%29.svg/500px-Banner_of_the_Qulla_Suyu_%281979%29.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Banner_of_the_Qulla_Suyu_%281979%29.svg/500px-Banner_of_the_Qulla_Suyu_%281979%29.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "EU",
 		"name": "Europe",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/960px-Flag_of_Europe.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/960px-Flag_of_Europe.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "AQ",
 		"name": "Antarctica",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Proposed_flag_of_Antarctica_%28Graham_Bartram%29.svg/330px-Proposed_flag_of_Antarctica_%28Graham_Bartram%29.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Proposed_flag_of_Antarctica_%28Graham_Bartram%29.svg/330px-Proposed_flag_of_Antarctica_%28Graham_Bartram%29.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "UN",
 		"name": "United Nations",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_the_United_Nations.svg/500px-Flag_of_the_United_Nations.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_the_United_Nations.svg/500px-Flag_of_the_United_Nations.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "AL",
 		"name": "Alabama",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Alabama.svg/250px-Flag_of_Alabama.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Alabama.svg/250px-Flag_of_Alabama.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "AK",
 		"name": "Alaska",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Alaska.svg/250px-Flag_of_Alaska.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Alaska.svg/250px-Flag_of_Alaska.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "AZ",
 		"name": "Arizona",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Arizona.svg/250px-Flag_of_Arizona.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Arizona.svg/250px-Flag_of_Arizona.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "AR",
 		"name": "Arkansas",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Arkansas.svg/250px-Flag_of_Arkansas.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Arkansas.svg/250px-Flag_of_Arkansas.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "CA",
 		"name": "California",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_California.svg/250px-Flag_of_California.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_California.svg/250px-Flag_of_California.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "CO",
 		"name": "Colorado",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Flag_of_Colorado.svg/250px-Flag_of_Colorado.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Flag_of_Colorado.svg/250px-Flag_of_Colorado.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "CT",
 		"name": "Connecticut",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Flag_of_Connecticut.svg/250px-Flag_of_Connecticut.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Flag_of_Connecticut.svg/250px-Flag_of_Connecticut.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "DE",
 		"name": "Delaware",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Flag_of_Delaware.svg/250px-Flag_of_Delaware.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Flag_of_Delaware.svg/250px-Flag_of_Delaware.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "FL",
 		"name": "Florida",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Florida.svg/250px-Flag_of_Florida.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Florida.svg/250px-Flag_of_Florida.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "GA",
 		"name": "Georgia",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_the_State_of_Georgia.svg/250px-Flag_of_the_State_of_Georgia.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_the_State_of_Georgia.svg/250px-Flag_of_the_State_of_Georgia.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "HI",
 		"name": "Hawaii",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Flag_of_Hawaii.svg/250px-Flag_of_Hawaii.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Flag_of_Hawaii.svg/250px-Flag_of_Hawaii.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "ID",
 		"name": "Idaho",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_Idaho.svg/250px-Flag_of_Idaho.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_Idaho.svg/250px-Flag_of_Idaho.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "IL",
 		"name": "Illinois",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Illinois.svg/250px-Flag_of_Illinois.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Illinois.svg/250px-Flag_of_Illinois.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "IN",
 		"name": "Indiana",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Flag_of_Indiana.svg/250px-Flag_of_Indiana.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Flag_of_Indiana.svg/250px-Flag_of_Indiana.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "IA",
 		"name": "Iowa",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Flag_of_Iowa.svg/250px-Flag_of_Iowa.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Flag_of_Iowa.svg/250px-Flag_of_Iowa.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "KS",
 		"name": "Kansas",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Flag_of_Kansas.svg/250px-Flag_of_Kansas.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Flag_of_Kansas.svg/250px-Flag_of_Kansas.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "KY",
 		"name": "Kentucky",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Flag_of_Kentucky.svg/250px-Flag_of_Kentucky.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Flag_of_Kentucky.svg/250px-Flag_of_Kentucky.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "LA",
 		"name": "Louisiana",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Flag_of_Louisiana.svg/250px-Flag_of_Louisiana.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Flag_of_Louisiana.svg/250px-Flag_of_Louisiana.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "ME",
 		"name": "Maine",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Flag_of_the_State_of_Maine.svg/250px-Flag_of_the_State_of_Maine.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Flag_of_the_State_of_Maine.svg/250px-Flag_of_the_State_of_Maine.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "MD",
 		"name": "Maryland",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_Maryland.svg/250px-Flag_of_Maryland.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_Maryland.svg/250px-Flag_of_Maryland.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "MA",
 		"name": "Massachusetts",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Massachusetts.svg/250px-Flag_of_Massachusetts.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Massachusetts.svg/250px-Flag_of_Massachusetts.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "MI",
 		"name": "Michigan",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Flag_of_Michigan.svg/250px-Flag_of_Michigan.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Flag_of_Michigan.svg/250px-Flag_of_Michigan.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "MN",
 		"name": "Minnesota",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Flag_of_Minnesota.svg/250px-Flag_of_Minnesota.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Flag_of_Minnesota.svg/250px-Flag_of_Minnesota.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "MS",
 		"name": "Mississippi",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Flag_of_Mississippi.svg/250px-Flag_of_Mississippi.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Flag_of_Mississippi.svg/250px-Flag_of_Mississippi.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "MO",
 		"name": "Missouri",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Flag_of_Missouri.svg/250px-Flag_of_Missouri.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Flag_of_Missouri.svg/250px-Flag_of_Missouri.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "MT",
 		"name": "Montana",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_Montana.svg/250px-Flag_of_Montana.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_Montana.svg/250px-Flag_of_Montana.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "NE",
 		"name": "Nebraska",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Flag_of_Nebraska.svg/250px-Flag_of_Nebraska.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Flag_of_Nebraska.svg/250px-Flag_of_Nebraska.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "NV",
 		"name": "Nevada",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Flag_of_Nevada.svg/250px-Flag_of_Nevada.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Flag_of_Nevada.svg/250px-Flag_of_Nevada.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "NH",
 		"name": "New Hampshire",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Flag_of_New_Hampshire.svg/250px-Flag_of_New_Hampshire.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Flag_of_New_Hampshire.svg/250px-Flag_of_New_Hampshire.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "NJ",
 		"name": "New Jersey",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_New_Jersey.svg/250px-Flag_of_New_Jersey.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_New_Jersey.svg/250px-Flag_of_New_Jersey.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "NM",
 		"name": "New Mexico",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_New_Mexico.svg/250px-Flag_of_New_Mexico.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_New_Mexico.svg/250px-Flag_of_New_Mexico.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "NY",
 		"name": "New York",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_New_York.svg/250px-Flag_of_New_York.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_New_York.svg/250px-Flag_of_New_York.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "NC",
 		"name": "North Carolina",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Flag_of_North_Carolina.svg/250px-Flag_of_North_Carolina.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Flag_of_North_Carolina.svg/250px-Flag_of_North_Carolina.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "ND",
 		"name": "North Dakota",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Flag_of_North_Dakota.svg/250px-Flag_of_North_Dakota.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Flag_of_North_Dakota.svg/250px-Flag_of_North_Dakota.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "OH",
 		"name": "Ohio",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Ohio.svg/250px-Flag_of_Ohio.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Ohio.svg/250px-Flag_of_Ohio.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "OK",
 		"name": "Oklahoma",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Flag_of_Oklahoma.svg/250px-Flag_of_Oklahoma.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Flag_of_Oklahoma.svg/250px-Flag_of_Oklahoma.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "OR",
 		"name": "Oregon",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Flag_of_Oregon.svg/250px-Flag_of_Oregon.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Flag_of_Oregon.svg/250px-Flag_of_Oregon.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "OR",
 		"name": "Oregon (reverse)",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Flag_of_Oregon_%28reverse%29.svg/250px-Flag_of_Oregon_%28reverse%29.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Flag_of_Oregon_%28reverse%29.svg/250px-Flag_of_Oregon_%28reverse%29.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "PA",
 		"name": "Pennsylvania",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Pennsylvania.svg/250px-Flag_of_Pennsylvania.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Pennsylvania.svg/250px-Flag_of_Pennsylvania.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "RI",
 		"name": "Rhode Island",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Rhode_Island.svg/120px-Flag_of_Rhode_Island.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Rhode_Island.svg/120px-Flag_of_Rhode_Island.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "SC",
 		"name": "South Carolina",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Flag_of_South_Carolina.svg/250px-Flag_of_South_Carolina.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Flag_of_South_Carolina.svg/250px-Flag_of_South_Carolina.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "SD",
 		"name": "South Dakota",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_South_Dakota.svg/250px-Flag_of_South_Dakota.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_South_Dakota.svg/250px-Flag_of_South_Dakota.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "TN",
 		"name": "Tennessee",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Tennessee.svg/250px-Flag_of_Tennessee.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Tennessee.svg/250px-Flag_of_Tennessee.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "TX",
 		"name": "Texas",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Texas.svg/250px-Flag_of_Texas.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Texas.svg/250px-Flag_of_Texas.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "UT",
 		"name": "Utah",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Utah.svg/250px-Flag_of_Utah.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Utah.svg/250px-Flag_of_Utah.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "VT",
 		"name": "Vermont",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Vermont.svg/250px-Flag_of_Vermont.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Vermont.svg/250px-Flag_of_Vermont.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "VA",
 		"name": "Virginia",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Flag_of_Virginia.svg/250px-Flag_of_Virginia.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Flag_of_Virginia.svg/250px-Flag_of_Virginia.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "WA",
 		"name": "Washington",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Flag_of_Washington.svg/250px-Flag_of_Washington.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Flag_of_Washington.svg/250px-Flag_of_Washington.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "WV",
 		"name": "West Virginia",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Flag_of_West_Virginia.svg/250px-Flag_of_West_Virginia.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Flag_of_West_Virginia.svg/250px-Flag_of_West_Virginia.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "WI",
 		"name": "Wisconsin",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Flag_of_Wisconsin.svg/250px-Flag_of_Wisconsin.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Flag_of_Wisconsin.svg/250px-Flag_of_Wisconsin.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "WY",
 		"name": "Wyoming",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Wyoming.svg/250px-Flag_of_Wyoming.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Wyoming.svg/250px-Flag_of_Wyoming.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "DC",
 		"name": "Washington, D.C.",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Washington%2C_D.C.svg/250px-Flag_of_Washington%2C_D.C.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Washington%2C_D.C.svg/250px-Flag_of_Washington%2C_D.C.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "AS",
 		"name": "American Samoa",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Flag_of_American_Samoa.svg/250px-Flag_of_American_Samoa.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Flag_of_American_Samoa.svg/250px-Flag_of_American_Samoa.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "GU",
 		"name": "Guam",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Flag_of_Guam.svg/250px-Flag_of_Guam.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Flag_of_Guam.svg/250px-Flag_of_Guam.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "MP",
 		"name": "Northern Mariana Islands",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Flag_of_the_Northern_Mariana_Islands.svg/250px-Flag_of_the_Northern_Mariana_Islands.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Flag_of_the_Northern_Mariana_Islands.svg/250px-Flag_of_the_Northern_Mariana_Islands.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "PR",
 		"name": "Puerto Rico",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Flag_of_Puerto_Rico.svg/250px-Flag_of_Puerto_Rico.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Flag_of_Puerto_Rico.svg/250px-Flag_of_Puerto_Rico.svg.png"
 	},
 	{
 		"type": "unitedStatesState",
 		"code": "VI",
 		"name": "U.S. Virgin Islands",
-		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_the_United_States_Virgin_Islands.svg/250px-Flag_of_the_United_States_Virgin_Islands.svg.png"
+		"pngImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_the_United_States_Virgin_Islands.svg/250px-Flag_of_the_United_States_Virgin_Islands.svg.png"
 	}
 ]
