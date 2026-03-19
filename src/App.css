@@ -97,6 +97,12 @@ main {
 
 .twemoji-flag {
 	width: 100%;
+	position: relative;
+	cursor: pointer;
+}
+
+.twemoji-flag img {
+	width: 100%;
 	aspect-ratio: 50 / 36;
 	object-fit: cover;
 	cursor: pointer;
@@ -112,18 +118,6 @@ main {
 	cursor: pointer;
 }
 
-.wikipedia-flag::after {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	pointer-events: none;
-	border-radius: inherit;
-	box-shadow: inset 0 0 0 1px var(--color-image-border);
-}
-
 .wikipedia-flag img {
 	width: 100%;
 	height: 100%;
@@ -136,5 +130,30 @@ main {
 	width: 100%;
 	position: relative;
 	cursor: pointer;
+	border-radius: 1000px;
+	user-select: none;
+}
+
+.circle-flag img {
+	width: 100%;
+	height: 100%;
 	aspect-ratio: 1 / 1;
+	object-fit: contain;
+	border-radius: inherit;
+	pointer-events: none;
+	user-select: none;
+}
+
+.twemoji-flag::after,
+.wikipedia-flag::after,
+.circle-flag::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+	border-radius: inherit;
+	box-shadow: inset 0 0 0 1px var(--color-image-border);
 }

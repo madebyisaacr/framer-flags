@@ -300,14 +300,9 @@ function TwemojiFlag({ code, isAllowedToEdit }: { code: string; isAllowedToEdit:
 				altText: name,
 			}}
 		>
-			<img
-				src={emojiURL}
-				alt={name}
-				title={name}
-				className="twemoji-flag"
-				draggable={false}
-				onClick={onClick}
-			/>
+			<div className="twemoji-flag" onClick={onClick}>
+				<img src={emojiURL} alt={name} title={name} draggable={false} />
+			</div>
 		</Draggable>
 	);
 }
@@ -335,14 +330,9 @@ function CircleFlag({ flag, isAllowedToEdit }: { flag: CircleFlagData; isAllowed
 				altText: name,
 			}}
 		>
-			<img
-				src={imageURL}
-				alt={name}
-				title={name}
-				className="circle-flag"
-				draggable={false}
-				onClick={onClick}
-			/>
+			<div className="circle-flag" onClick={onClick}>
+				<img src={imageURL} alt={name} title={name} draggable={false} />
+			</div>
 		</Draggable>
 	);
 }
