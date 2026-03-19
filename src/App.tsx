@@ -33,6 +33,7 @@ const ICON_SETS = {
 const DEFAULT_ICON_SET = "wikipediaCountries";
 
 const ICON_SET_STORAGE_KEY = "framer-flags.iconSet";
+let lastInsertedFrameId: string | null = null;
 
 function isIconSetKey(value: string): value is keyof typeof ICON_SETS {
 	return Object.prototype.hasOwnProperty.call(ICON_SETS, value);
@@ -487,6 +488,7 @@ function WikipediaFlag({
 function emojiToTwemojiURL(emoji: string): string {
 	const codepoint = [...emoji].map((char) => (char.codePointAt(0) ?? 0).toString(16)).join("-");
 	// return `https://cdnjs.cloudflare.com/ajax/libs/twemoji/15.1.0/72x72/${codepoint}.png`;
+	// return `https://cdnjs.cloudflare.com/ajax/libs/twemoji/15.1.0/108x108/${codepoint}.png`;
 	return `https://cdnjs.cloudflare.com/ajax/libs/twemoji/15.1.0/svg/${codepoint}.svg`;
 }
 
@@ -498,7 +500,15 @@ function circleFlagCodeToURL(code: string): string {
 async function calculateParentId() {
 	const selection = await framer.getSelection();
 	const selectedFrames = selection.filter(isFrameNode);
-	let parentId = selectedFrames[0]?.id;
+	const selectedFrame = selectedFrames[0];
+	let parentId = selectedFrame?.id;
+
+	if (selectedFrame && selectedFrame.id === lastInsertedFrameId) {
+		const selectedFrameParent = await framer.getParent(selectedFrame.id);
+		if (selectedFrameParent?.id) {
+			parentId = selectedFrameParent.id;
+		}
+	}
 
 	if (!parentId) {
 		const canvasRoot = await framer.getCanvasRoot();
@@ -560,7 +570,7 @@ async function insertImage(name: string, imageUrl: string) {
 		const frame = await framer.createFrameNode(
 			{
 				name,
-				width: "200px",
+				width: "100px",
 				height: "fit-image",
 				backgroundImage: image,
 			},
@@ -568,6 +578,7 @@ async function insertImage(name: string, imageUrl: string) {
 		);
 
 		if (frame) {
+			lastInsertedFrameId = frame.id;
 			void framer.setSelection([frame.id]);
 
 			void framer.notify(`Inserted ${name} flag`, { variant: "success" });
