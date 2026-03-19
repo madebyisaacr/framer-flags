@@ -7,7 +7,7 @@ import "./App.css";
 import { codeToFlag } from "./flags";
 import countryNames from "./data/countryNames.json";
 import countryCodes from "./data/countryCodes.json";
-import wikipediaFlags from "./data/wikipediaFlags.json";
+import wikipediaCountryFlags from "./data/wikipediaCountryFlags.json";
 
 const IS_CANVAS = framer.mode === "canvas";
 const IS_LOCALHOST =
@@ -93,7 +93,7 @@ function PaymentCardLogosApp() {
 			<div className={cx("grid", framer.mode === "canvas" ? "canvas" : "image")}>
 				{iconSet === "twemoji"
 					? sortedCodes.map((code) => <TwemojiFlag key={code} code={code} />)
-					: wikipediaFlags.map((flag) => <WikipediaFlag key={flag.name} flag={flag} />)}
+					: wikipediaCountryFlags.map((flag) => <WikipediaFlag key={flag.name} flag={flag} />)}
 			</div>
 		</main>
 	);
@@ -120,7 +120,7 @@ function TwemojiFlag({ code }: { code: string }) {
 	);
 }
 
-function WikipediaFlag({ flag }: { flag: (typeof wikipediaFlags)[0] }) {
+function WikipediaFlag({ flag }: { flag: (typeof wikipediaCountryFlags)[0] }) {
 	const name = flag.name;
 	const imageURL = flag.imageURL;
 
@@ -129,7 +129,9 @@ function WikipediaFlag({ flag }: { flag: (typeof wikipediaFlags)[0] }) {
 			key={name}
 			data={{ type: "image", image: imageURL, previewImage: imageURL, name, altText: name }}
 		>
-			<img src={imageURL} alt={name} title={name} className="wikipedia-flag" draggable={false} />
+			<div className="wikipedia-flag">
+				<img src={imageURL} alt={name} title={name} draggable={false} />
+			</div>
 		</Draggable>
 	);
 }

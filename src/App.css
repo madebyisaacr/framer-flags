@@ -20,6 +20,14 @@ main {
 	gap: 10px;
 }
 
+[data-framer-theme="light"] {
+	--color-image-border: rgba(0, 0, 0, 0.1);
+}
+
+[data-framer-theme="dark"] {
+	--color-image-border: rgba(255, 255, 255, 0.15);
+}
+
 .toolbar {
 	display: flex;
 	flex-direction: row;
@@ -91,9 +99,31 @@ main {
 
 .wikipedia-flag {
 	width: 100%;
-	aspect-ratio: 3 / 2;
+	height: 100%;
 	object-fit: contain;
 	border-radius: 5px;
+	position: relative;
+	background-color: var(--framer-color-bg-secondary);
+}
+
+.wikipedia-flag::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+	border-radius: inherit;
+	box-shadow: inset 0 0 0 1px var(--color-image-border);
+}
+
+.wikipedia-flag img {
+	width: 100%;
+	height: 100%;
+	aspect-ratio: 3 / 2;
+	border-radius: inherit;
+	object-fit: contain;
 }
 
 .icon-set-dropdown {
