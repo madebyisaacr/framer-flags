@@ -383,7 +383,7 @@ function PaymentCardLogosApp() {
 function TwemojiFlag({ code, isAllowedToEdit }: { code: string; isAllowedToEdit: boolean }) {
 	const name = twemojiCountryNames[code as TwemojiCountryCode] ?? code;
 	const emoji = codeToFlag(code);
-	const emojiURL = emojiToURL(emoji);
+	const emojiURL = emojiToTwemojiURL(emoji);
 
 	const onClick = async () => {
 		if (!isAllowedToEdit) {
@@ -479,9 +479,10 @@ function WikipediaFlag({
 	);
 }
 
-function emojiToURL(emoji: string): string {
+function emojiToTwemojiURL(emoji: string): string {
 	const codepoint = [...emoji].map((char) => (char.codePointAt(0) ?? 0).toString(16)).join("-");
-	return `https://cdnjs.cloudflare.com/ajax/libs/twemoji/15.1.0/72x72/${codepoint}.png`;
+	// return `https://cdnjs.cloudflare.com/ajax/libs/twemoji/15.1.0/72x72/${codepoint}.png`;
+	return `https://cdnjs.cloudflare.com/ajax/libs/twemoji/15.1.0/svg/${codepoint}.svg`;
 }
 
 function circleFlagCodeToURL(code: string): string {
