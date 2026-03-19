@@ -1,4 +1,11 @@
-import { Draggable, framer, useIsAllowedTo } from "framer-plugin";
+import {
+	Draggable,
+	framer,
+	useIsAllowedTo,
+	isFrameNode,
+	isWebPageNode,
+	isComponentNode,
+} from "framer-plugin";
 import { useEffect, useMemo, useState } from "react";
 import AdminUI from "./AdminUI";
 import { SearchIcon } from "./Icons";
@@ -187,6 +194,10 @@ function TwemojiFlag({ code }: { code: string }) {
 	const emoji = codeToFlag(code);
 	const emojiURL = emojiToURL(emoji);
 
+	const onClick = async () => {
+		await insertImageFrame(name, emojiURL);
+	};
+
 	return (
 		<Draggable
 			key={code}
@@ -198,7 +209,14 @@ function TwemojiFlag({ code }: { code: string }) {
 				altText: name,
 			}}
 		>
-			<img src={emojiURL} alt={name} title={name} className="twemoji-flag" draggable={false} />
+			<img
+				src={emojiURL}
+				alt={name}
+				title={name}
+				className="twemoji-flag"
+				draggable={false}
+				onClick={onClick}
+			/>
 		</Draggable>
 	);
 }
@@ -208,6 +226,9 @@ type WikipediaFlagData = (typeof wikipediaCountryFlags)[0] | (typeof wikipediaUn
 function WikipediaFlag({ flag }: { flag: WikipediaFlagData }) {
 	const name = flag.name;
 	const imageURL = flag.imageURL;
+	const onClick = async () => {
+		await insertImageFrame(name, imageURL);
+	};
 
 	return (
 		<Draggable
@@ -215,7 +236,7 @@ function WikipediaFlag({ flag }: { flag: WikipediaFlagData }) {
 			data={{ type: "image", image: imageURL, previewImage: imageURL, name, altText: name }}
 		>
 			<div className="wikipedia-flag">
-				<img src={imageURL} alt={name} title={name} draggable={false} />
+				<img src={imageURL} alt={name} title={name} draggable={false} onClick={onClick} />
 			</div>
 		</Draggable>
 	);
@@ -224,4 +245,67 @@ function WikipediaFlag({ flag }: { flag: WikipediaFlagData }) {
 function emojiToURL(emoji: string): string {
 	const codepoint = [...emoji].map((char) => (char.codePointAt(0) ?? 0).toString(16)).join("-");
 	return `https://cdnjs.cloudflare.com/ajax/libs/twemoji/15.1.0/72x72/${codepoint}.png`;
+}
+
+async function calculateParentId() {
+	const selection = await framer.getSelection();
+	const selectedFrames = selection.filter(isFrameNode);
+	let parentId = selectedFrames[0]?.id;
+
+	if (!parentId) {
+		const canvasRoot = await framer.getCanvasRoot();
+		if (isWebPageNode(canvasRoot)) {
+			const children = await canvasRoot.getChildren();
+			const primaryBreakpoint = children?.find(
+				(child) => isFrameNode(child) && child.isPrimaryBreakpoint
+			);
+
+			if (primaryBreakpoint) {
+				parentId = primaryBreakpoint.id;
+			}
+		} else if (isComponentNode(canvasRoot)) {
+			const children = await canvasRoot.getChildren();
+			const primaryVariant = children?.find(
+				(child) => isFrameNode(child) && child.isPrimaryVariant
+			);
+
+			if (primaryVariant) {
+				parentId = primaryVariant.id;
+			}
+		}
+	}
+
+	return parentId;
+}
+
+async function insertImageFrame(name: string, imageUrl: string) {
+	try {
+		const parentId = await calculateParentId();
+
+		if (typeof imageUrl !== "string" || !imageUrl) {
+			framer.notify(`Missing image URL for ${name}`, { variant: "error" });
+			return;
+		}
+
+		const image = await framer.uploadImage({
+			image: imageUrl,
+			altText: name,
+		});
+
+		const frame = await framer.createFrameNode(
+			{
+				name,
+				width: "200px",
+				height: "fit-image",
+				backgroundImage: image,
+			},
+			parentId
+		);
+
+		if (frame) {
+			void framer.setSelection([frame.id]);
+		}
+	} catch {
+		framer.notify(`Couldn't add ${name}`, { variant: "error" });
+	}
 }
