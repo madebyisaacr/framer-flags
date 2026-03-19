@@ -25,11 +25,12 @@ const IS_LOCALHOST =
 const PERMISSION_METHODS = IS_CANVAS ? ["createFrameNode", "setImage"] : ["setImage"];
 
 const ICON_SETS = {
-	twemoji: "Twemoji",
 	wikipediaCountries: "Wikipedia - Countries",
 	wikipediaUnitedStates: "Wikipedia - United States",
+	twemoji: "Twemoji",
 	circleFlags: "Circle Flags",
 };
+const DEFAULT_ICON_SET = "wikipediaCountries";
 
 const ICON_SET_STORAGE_KEY = "framer-flags.iconSet";
 
@@ -112,7 +113,7 @@ function PaymentCardLogosApp() {
 
 	const [query, setQuery] = useState("");
 	const [iconSet, setIconSet] = useState<keyof typeof ICON_SETS>(() => {
-		if (typeof window === "undefined") return "twemoji";
+		if (typeof window === "undefined") return DEFAULT_ICON_SET;
 
 		try {
 			const stored = window.localStorage.getItem(ICON_SET_STORAGE_KEY);
@@ -121,11 +122,12 @@ function PaymentCardLogosApp() {
 			// Ignore localStorage failures (e.g. blocked by browser settings).
 		}
 
-		return "twemoji";
+		return DEFAULT_ICON_SET;
 	});
 
 	const [showSourceModal, setShowSourceModal] = useState(false);
-	const [sourceModalIconSet, setSourceModalIconSet] = useState<keyof typeof ICON_SETS>("twemoji");
+	const [sourceModalIconSet, setSourceModalIconSet] =
+		useState<keyof typeof ICON_SETS>(DEFAULT_ICON_SET);
 
 	const changeIconSet = (next: keyof typeof ICON_SETS) => {
 		setIconSet(next);
