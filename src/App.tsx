@@ -25,13 +25,9 @@ const PERMISSION_METHODS = IS_CANVAS ? ["createFrameNode", "setImage"] : ["setIm
 
 const ICON_SETS = {
 	twemoji: "Twemoji",
-	wikipedia: "Wikipedia",
+	wikipediaCountries: "Wikipedia - Countries",
+	wikipediaUnitedStates: "Wikipedia - United States",
 	circleFlags: "Circle Flags",
-};
-
-const WIKIPEDIA_FLAG_SCOPES = {
-	countries: "Countries",
-	unitedStates: "United States",
 };
 
 type WikipediaCombinedFlag = {
@@ -78,8 +74,6 @@ function PaymentCardLogosApp() {
 
 	const [query, setQuery] = useState("");
 	const [iconSet, setIconSet] = useState<keyof typeof ICON_SETS>("twemoji");
-	const [wikipediaScope, setWikipediaScope] =
-		useState<keyof typeof WIKIPEDIA_FLAG_SCOPES>("countries");
 
 	const sortedCodes = useMemo(() => [...countryCodes].sort((a, b) => a.localeCompare(b)), []);
 	const sortedWikipediaCountryFlags = useMemo(() => {
@@ -106,12 +100,15 @@ function PaymentCardLogosApp() {
 			.find((flag) => flag.type === "country" && flag.code === "US");
 	}, []);
 
-	const wikipediaFlagsForScope = useMemo(() => {
-		if (wikipediaScope === "countries") return sortedWikipediaCountryFlags;
-		return unitedStatesFlag
-			? [unitedStatesFlag, ...sortedUnitedStatesStateFlags]
-			: sortedUnitedStatesStateFlags;
-	}, [sortedWikipediaCountryFlags, sortedUnitedStatesStateFlags, unitedStatesFlag, wikipediaScope]);
+	const wikipediaFlagsForSelectedType = useMemo(() => {
+		if (iconSet === "wikipediaCountries") return sortedWikipediaCountryFlags;
+		if (iconSet === "wikipediaUnitedStates") {
+			return unitedStatesFlag
+				? [unitedStatesFlag, ...sortedUnitedStatesStateFlags]
+				: sortedUnitedStatesStateFlags;
+		}
+		return [] as WikipediaCombinedFlag[];
+	}, [iconSet, sortedWikipediaCountryFlags, sortedUnitedStatesStateFlags, unitedStatesFlag]);
 	const normalizedQuery = useMemo(() => query.trim().toLowerCase(), [query]);
 	const filteredTwemojiCodes = useMemo(() => {
 		if (iconSet !== "twemoji") return [];
@@ -135,9 +132,9 @@ function PaymentCardLogosApp() {
 			});
 	}, [iconSet, normalizedQuery, sortedCodes]);
 	const filteredWikipediaFlags = useMemo(() => {
-		if (iconSet !== "wikipedia") return [];
-		if (!normalizedQuery) return wikipediaFlagsForScope;
-		return wikipediaFlagsForScope
+		if (iconSet !== "wikipediaCountries" && iconSet !== "wikipediaUnitedStates") return [];
+		if (!normalizedQuery) return wikipediaFlagsForSelectedType;
+		return wikipediaFlagsForSelectedType
 			.filter((flag) => {
 				const normalizedCode = flag.code?.toLowerCase() ?? "";
 				const normalizedName = flag.name.toLowerCase();
@@ -153,7 +150,7 @@ function PaymentCardLogosApp() {
 				if (aExact !== bExact) return bExact - aExact;
 				return a.name.localeCompare(b.name);
 			});
-	}, [iconSet, normalizedQuery, wikipediaFlagsForScope]);
+	}, [iconSet, normalizedQuery, wikipediaFlagsForSelectedType]);
 
 	return (
 		<main className="payment-card-logos">
@@ -184,21 +181,6 @@ function PaymentCardLogosApp() {
 						</option>
 					))}
 				</select>
-				{iconSet === "wikipedia" && (
-					<select
-						value={wikipediaScope}
-						onChange={(e) =>
-							setWikipediaScope(e.target.value as keyof typeof WIKIPEDIA_FLAG_SCOPES)
-						}
-						className="icon-set-dropdown"
-					>
-						{Object.entries(WIKIPEDIA_FLAG_SCOPES).map(([key, value]) => (
-							<option key={key} value={key}>
-								{value}
-							</option>
-						))}
-					</select>
-				)}
 			</div>
 			<div className={cx("grid", framer.mode === "canvas" ? "canvas" : "image")}>
 				{iconSet === "twemoji"

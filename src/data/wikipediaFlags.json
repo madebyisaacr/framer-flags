@@ -938,7 +938,7 @@
 	{
 		"type": "country",
 		"code": "PL",
-		"name": "State flag and Civil flag of Poland",
+		"name": "State and Civil flag of Poland",
 		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Flag_of_Poland_%28with_coat_of_arms%29.svg/250px-Flag_of_Poland_%28with_coat_of_arms%29.svg.png"
 	},
 	{
@@ -1244,13 +1244,13 @@
 	{
 		"type": "country",
 		"code": "UY",
-		"name": "Artigas flag",
+		"name": "Artigas",
 		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Flag_of_Artigas.svg/250px-Flag_of_Artigas.svg.png"
 	},
 	{
 		"type": "country",
 		"code": "UY",
-		"name": "Flag of the Treinta y Tres",
+		"name": "Treinta y Tres",
 		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_the_Treinta_y_Tres.svg/250px-Flag_of_the_Treinta_y_Tres.svg.png"
 	},
 	{
@@ -1324,6 +1324,12 @@
 		"code": "AQ",
 		"name": "Antarctica",
 		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Proposed_flag_of_Antarctica_%28Graham_Bartram%29.svg/330px-Proposed_flag_of_Antarctica_%28Graham_Bartram%29.svg.png"
+	},
+	{
+		"type": "country",
+		"code": "UN",
+		"name": "United Nations",
+		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_the_United_Nations.svg/500px-Flag_of_the_United_Nations.svg.png"
 	},
 	{
 		"type": "unitedStatesState",

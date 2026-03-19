@@ -99,6 +99,7 @@ main {
 	width: 100%;
 	aspect-ratio: 50 / 36;
 	object-fit: cover;
+	cursor: pointer;
 }
 
 .wikipedia-flag {
